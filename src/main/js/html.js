@@ -1284,7 +1284,7 @@ var backgroundColorAdjustSuffix = "BackgroundColorAdjust";
                     }
 
 ///////////Make the color calculations here ///////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
+///ADD com////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////     
                     // store original value
                     var Rsrgb=attr[0];
@@ -1304,7 +1304,7 @@ var backgroundColorAdjustSuffix = "BackgroundColorAdjust";
                         g=Math.pow(g,2.0);
                         b=Math.pow(b,2.0);
                     // Step 3:Convert to BT2020
-                    //black in some spaces
+                
                         r=(0.627403895934699*r)+(0.3292830383778848*g)+(0.0433130656874172*b);
                         g=(0.0690972893582321*r)+(0.919540395075459*g)+(0.0113623155663092*b);
                         b=(0.0163914388751502*r)+(0.0880133078772256 *g)+(0.895595253247623 *b);
@@ -1344,27 +1344,35 @@ var backgroundColorAdjustSuffix = "BackgroundColorAdjust";
                             b=a*Math.log(12*b-bb)+c;
                         }
                         //step 6: Convert to 255 range
-                        r=Math.round(255*r);
-                        g=Math.round(255*g);
-                        b=Math.round(255*b);
+                        // r=Math.round(255*r);
+                        // g=Math.round(255*g);
+                        // b=Math.round(255*b);
 
-                        attr= [r, g , b, Asrgb]
+                        attr= [r, g , b, Asrgb];
+
+                       // dom_element.style.color = "color(rec2100-hlg " +
+                        dom_element.style.color = "color(rec2020" +
+                        attr[0].toString() + " " +
+                        attr[1].toString() + " " +
+                        attr[2].toString() + " " +
+                        (opacityMultiplier * attr[3] / 255).toString() +
+                        ")";
 
                     }
                     else{
                         attr = [ Rsrgb, Gsrgb, Bsrgb, Asrgb ];
                         
-
+                        dom_element.style.color = "rgba(" +
+                        attr[0].toString() + "," +
+                        attr[1].toString() + "," +
+                        attr[2].toString() + "," +
+                        (opacityMultiplier * attr[3] / 255).toString() +
+                        ")";
                         
-                    }
+                        }
 
 
-                    dom_element.style.color = "rgba(" +
-                            attr[0].toString() + "," +
-                            attr[1].toString() + "," +
-                            attr[2].toString() + "," +
-                            (opacityMultiplier * attr[3] / 255).toString() +
-                            ")";
+                 
 
                 }
         ),
