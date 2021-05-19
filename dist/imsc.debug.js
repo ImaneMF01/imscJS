@@ -3147,7 +3147,6 @@ var backgroundColorAdjustSuffix = "BackgroundColorAdjust";
             dom_element.style[TEXTEMPHASISPOSITION_PROP] = pos;
         }
     }
-
     function HTMLStylingMapDefintion(qName, mapFunc) {
         this.qname = qName;
         this.map = mapFunc;
@@ -3177,12 +3176,16 @@ var backgroundColorAdjustSuffix = "BackgroundColorAdjust";
                         opacity = opacity * context.options.backgroundOpacityScale;
 
                     opacity = opacity / 255;
-
+///////////Make the color calculations here ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
                     dom_element.style.backgroundColor = "rgba(" +
                             attr[0].toString() + "," +
                             attr[1].toString() + "," +
                             attr[2].toString() + "," +
                             opacity.toString() +
+
+                    
                             ")";
                 }
         ),
@@ -3202,12 +3205,129 @@ var backgroundColorAdjustSuffix = "BackgroundColorAdjust";
                             attr = map_attr;
                     }
 
-                    dom_element.style.color = "rgba(" +
-                            attr[0].toString() + "," +
-                            attr[1].toString() + "," +
-                            attr[2].toString() + "," +
-                            (opacityMultiplier * attr[3] / 255).toString() +
-                            ")";
+///////////Make the color calculations here ///////////////////////////////
+///ADD com////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////     
+                    // store original value
+                    var Rsrgb=attr[0];
+                    var Gsrgb=attr[1];
+                    var Bsrgb=attr[2];
+                    var Asrgb=attr[3];
+             
+                    if (context.options.hdr) {
+            
+                        /* adjust the colours for HDR */
+                    // //step 1: (r, g, b)/255 → (r, g, b)
+                        var r=Rsrgb/255;
+                        var g=Gsrgb/255;
+                        var b=Bsrgb/255;
+                    // step 2: (r2.0,g2.0,b2.0) → (r,g,b)
+                        r=Math.pow(r,2.0);
+                        g=Math.pow(g,2.0);
+                        b=Math.pow(b,2.0);
+                    // Step 3:Convert to BT2020
+                
+                        r=(0.627403895934699*r)+(0.3292830383778848*g)+(0.0433130656874172*b);
+                        g=(0.0690972893582321*r)+(0.919540395075459*g)+(0.0113623155663092*b);
+                        b=(0.0163914388751502*r)+(0.0880133078772256 *g)+(0.895595253247623 *b);
+                    //             
+                    // // step 4:((0.265r),(0.265g),(0.265b)) → (r,g,b) 
+                        r=0.265*r;
+                        g=0.265*g;
+                        b=0.265*b;
+                    //step 5: (HLG(r),HLG(g),HLG(b)) → (r,g,b)
+                        a = 0.17883277;
+                        bb = 1 - (4*a);
+                        c = 0.5 - (a*Math.log(4*a));
+
+                        if (r<=(1/12)) {
+                            //HLG(x) = (3x)0.5 for 0 ≤ x ≤ 1/12
+                            r=Math.pow((3*r),0.5);
+                        }
+                        else {
+                            //HLG(x) = a•ln(12x−b)+c for x > 1/12,
+                            r=a*Math.log(12*r-bb)+c;
+                        }
+
+                        if (g<=(1/12)) {
+                            //HLG(x) = (3x)0.5 for 0 ≤ x ≤ 1/12
+                            g=Math.pow((3*g),0.5);
+                        }
+                        else {
+                            //HLG(x) = a•ln(12x−b)+c for x > 1/12,
+                            g=a*Math.log(12*g-bb)+c;
+                        }
+                        if (b<=(1/12)) {
+                            //HLG(x) = (3x)0.5 for 0 ≤ x ≤ 1/12
+                            b=Math.pow((3*b),0.5);
+                        }
+                        else {
+                            //HLG(x) = a•ln(12x−b)+c for x > 1/12,
+                            b=a*Math.log(12*b-bb)+c;
+                        }
+                        //step 6: Convert to 255 range
+                        // r=Math.round(255*r);
+                        // g=Math.round(255*g);
+                        // b=Math.round(255*b);
+
+                        attr= [r, g , b, Asrgb];
+
+                        //This doesn't work
+                        //color(display-p3 -0.6112 1.0079 -0.2192);
+                        // color(sRGB 0.41587 0.503670 0.36664);
+                        // color(display-p3 0.43313 0.50108 0.37950);
+                        // color(a98-rgb 0.44091 0.49971 0.37408);
+                        // color(prophoto-rgb 0.36589 0.41717 0.31333);
+                        // color(rec2020 0.42210 0.47580 0.35605);
+                        //color(xyz 0.2005, 0.14089, 0.4472)
+
+                        //var col= "color(display-p3 " + attr[0].toString() + " " +
+                        var col= "color(display-p3 " + attr[0].toString() + " " +
+                        attr[1].toString() + " " + attr[2].toString() +
+                        ")"; 
+                        dom_element.style.color = col;
+                        console.log(col);
+
+                        //This does work
+
+                        // dom_element.style.color = "rgba(" +
+                        // attr[0].toString() + "," +
+                        // attr[1].toString() + "," +
+                        // attr[2].toString() + "," +
+                        // (opacityMultiplier * attr[3] / 255).toString() +
+                        // ")";
+
+                        ////"rgba(29, 164, 192, 0.95)"
+                        ////color(rec2020 0.42053 0.979780 0.00579);
+                        // dom_element.style.color = "color(rec2020 " +
+                        // attr[0].toString() + " " +
+                        // attr[1].toString() + " " +
+                        // attr[2].toString() + ");" ;
+
+                         //color(rec2020 0.42053 0.979780 0.00579);
+                        //dom_element.style.color = "color(rec2100-hlg " +
+                       // dom_element.style.color = "color(rec2020 " +
+                        //dom_element.style.color = "rec2020(" +
+                        //attr[2].toString() + " " +
+                        //(opacityMultiplier * attr[3] / 255).toString() +
+                        //")";
+
+                    }
+                    else{
+                        attr = [ Rsrgb, Gsrgb, Bsrgb, Asrgb ];
+                        
+                        dom_element.style.color = "rgba(" +
+                        attr[0].toString() + "," +
+                        attr[1].toString() + "," +
+                        attr[2].toString() + "," +
+                        (opacityMultiplier * attr[3] / 255).toString() +
+                        ")";
+                        
+                        }
+
+
+                 
+
                 }
         ),
         new HTMLStylingMapDefintion(

@@ -71,9 +71,7 @@
             if (element.contents) {
                 var clone = {};
                 for (var prop in element) {
-                    if (element.hasOwnProperty(prop)) {
-                        clone[prop] = element[prop];
-                    }
+                    clone[prop] = element[prop];
                 }
                 clone.contents = [];
 
@@ -170,12 +168,12 @@
         /* apply set (animation) styling */
 
         for (var i in elem.sets) {
-            if (elem.sets.hasOwnProperty(i)) {
-                if (offset < elem.sets[i].begin || offset >= elem.sets[i].end)
-                    continue;
 
-                isd_element.styleAttrs[elem.sets[i].qname] = elem.sets[i].value;
-            }
+            if (offset < elem.sets[i].begin || offset >= elem.sets[i].end)
+                continue;
+
+            isd_element.styleAttrs[elem.sets[i].qname] = elem.sets[i].value;
+
         }
 
         /* 
@@ -186,28 +184,28 @@
         var spec_attr = {};
 
         for (var qname in isd_element.styleAttrs) {
-            if (isd_element.styleAttrs.hasOwnProperty(qname)) {
-                spec_attr[qname] = true;
 
-                /* special rule for tts:writingMode (section 7.29.1 of XSL)
-                 * direction is set consistently with writingMode only
-                 * if writingMode sets inline-direction to LTR or RTL  
-                 */
+            spec_attr[qname] = true;
 
-                if (isd_element.kind === 'region' &&
-                    qname === imscStyles.byName.writingMode.qname &&
-                    !(imscStyles.byName.direction.qname in isd_element.styleAttrs)) {
+            /* special rule for tts:writingMode (section 7.29.1 of XSL)
+             * direction is set consistently with writingMode only
+             * if writingMode sets inline-direction to LTR or RTL  
+             */
 
-                    var wm = isd_element.styleAttrs[qname];
+            if (isd_element.kind === 'region' &&
+                qname === imscStyles.byName.writingMode.qname &&
+                !(imscStyles.byName.direction.qname in isd_element.styleAttrs)) {
 
-                    if (wm === "lrtb" || wm === "lr") {
+                var wm = isd_element.styleAttrs[qname];
 
-                        isd_element.styleAttrs[imscStyles.byName.direction.qname] = "ltr";
+                if (wm === "lrtb" || wm === "lr") {
 
-                    } else if (wm === "rltb" || wm === "rl") {
+                    isd_element.styleAttrs[imscStyles.byName.direction.qname] = "ltr";
 
-                        isd_element.styleAttrs[imscStyles.byName.direction.qname] = "rtl";
-                    }
+                } else if (wm === "rltb" || wm === "rl") {
+
+                    isd_element.styleAttrs[imscStyles.byName.direction.qname] = "rtl";
+
                 }
 
             }
@@ -218,96 +216,96 @@
         if (parent !== null) {
 
             for (var j in imscStyles.all) {
-                if (imscStyles.all.hasOwnProperty(j)) {
-                    var sa = imscStyles.all[j];
 
-                    /* textDecoration has special inheritance rules */
+                var sa = imscStyles.all[j];
 
-                    if (sa.qname === imscStyles.byName.textDecoration.qname) {
+                /* textDecoration has special inheritance rules */
 
-                        /* handle both textDecoration inheritance and specification */
+                if (sa.qname === imscStyles.byName.textDecoration.qname) {
 
-                        var ps = parent.styleAttrs[sa.qname];
-                        var es = isd_element.styleAttrs[sa.qname];
-                        var outs = [];
+                    /* handle both textDecoration inheritance and specification */
 
-                        if (es === undefined) {
+                    var ps = parent.styleAttrs[sa.qname];
+                    var es = isd_element.styleAttrs[sa.qname];
+                    var outs = [];
 
-                            outs = ps;
+                    if (es === undefined) {
 
-                        } else if (es.indexOf("none") === -1) {
+                        outs = ps;
 
-                            if ((es.indexOf("noUnderline") === -1 &&
-                                 ps.indexOf("underline") !== -1) ||
-                                es.indexOf("underline") !== -1) {
+                    } else if (es.indexOf("none") === -1) {
 
-                                outs.push("underline");
+                        if ((es.indexOf("noUnderline") === -1 &&
+                            ps.indexOf("underline") !== -1) ||
+                            es.indexOf("underline") !== -1) {
 
-                            }
-
-                            if ((es.indexOf("noLineThrough") === -1 &&
-                                 ps.indexOf("lineThrough") !== -1) ||
-                                es.indexOf("lineThrough") !== -1) {
-
-                                outs.push("lineThrough");
-
-                            }
-
-                            if ((es.indexOf("noOverline") === -1 &&
-                                 ps.indexOf("overline") !== -1) ||
-                                es.indexOf("overline") !== -1) {
-
-                                outs.push("overline");
-
-                            }
-
-                        } else {
-
-                            outs.push("none");
+                            outs.push("underline");
 
                         }
 
-                        isd_element.styleAttrs[sa.qname] = outs;
+                        if ((es.indexOf("noLineThrough") === -1 &&
+                            ps.indexOf("lineThrough") !== -1) ||
+                            es.indexOf("lineThrough") !== -1) {
 
-                    } else if (sa.qname === imscStyles.byName.fontSize.qname &&
-                               !(sa.qname in isd_element.styleAttrs) &&
-                               isd_element.kind === 'span' &&
-                               isd_element.styleAttrs[imscStyles.byName.ruby.qname] === "textContainer") {
-                    
-                        /* special inheritance rule for ruby text container font size */
-                    
-                        var ruby_fs = parent.styleAttrs[imscStyles.byName.fontSize.qname];
+                            outs.push("lineThrough");
 
-                        isd_element.styleAttrs[sa.qname] = new imscUtils.ComputedLength(
+                        }
+
+                        if ((es.indexOf("noOverline") === -1 &&
+                            ps.indexOf("overline") !== -1) ||
+                            es.indexOf("overline") !== -1) {
+
+                            outs.push("overline");
+
+                        }
+
+                    } else {
+
+                        outs.push("none");
+
+                    }
+
+                    isd_element.styleAttrs[sa.qname] = outs;
+
+                } else if (sa.qname === imscStyles.byName.fontSize.qname &&
+                    !(sa.qname in isd_element.styleAttrs) &&
+                    isd_element.kind === 'span' &&
+                    isd_element.styleAttrs[imscStyles.byName.ruby.qname] === "textContainer") {
+                    
+                    /* special inheritance rule for ruby text container font size */
+                    
+                    var ruby_fs = parent.styleAttrs[imscStyles.byName.fontSize.qname];
+
+                    isd_element.styleAttrs[sa.qname] = new imscUtils.ComputedLength(
                         0.5 * ruby_fs.rw,
                         0.5 * ruby_fs.rh);
 
-                    } else if (sa.qname === imscStyles.byName.fontSize.qname &&
-                               !(sa.qname in isd_element.styleAttrs) &&
-                               isd_element.kind === 'span' &&
-                               isd_element.styleAttrs[imscStyles.byName.ruby.qname] === "text") {
+                } else if (sa.qname === imscStyles.byName.fontSize.qname &&
+                    !(sa.qname in isd_element.styleAttrs) &&
+                    isd_element.kind === 'span' &&
+                    isd_element.styleAttrs[imscStyles.byName.ruby.qname] === "text") {
                     
-                        /* special inheritance rule for ruby text font size */
+                    /* special inheritance rule for ruby text font size */
                     
-                        var parent_fs = parent.styleAttrs[imscStyles.byName.fontSize.qname];
+                    var parent_fs = parent.styleAttrs[imscStyles.byName.fontSize.qname];
                     
-                        if (parent.styleAttrs[imscStyles.byName.ruby.qname] === "textContainer") {
+                    if (parent.styleAttrs[imscStyles.byName.ruby.qname] === "textContainer") {
                         
-                            isd_element.styleAttrs[sa.qname] = parent_fs;
+                        isd_element.styleAttrs[sa.qname] = parent_fs;
                         
-                        } else {
+                    } else {
                         
-                            isd_element.styleAttrs[sa.qname] = new imscUtils.ComputedLength(
+                        isd_element.styleAttrs[sa.qname] = new imscUtils.ComputedLength(
                             0.5 * parent_fs.rw,
                             0.5 * parent_fs.rh);
-                        }
-                    
-                    } else if (sa.inherit &&
-                               (sa.qname in parent.styleAttrs) &&
-                               !(sa.qname in isd_element.styleAttrs)) {
-
-                        isd_element.styleAttrs[sa.qname] = parent.styleAttrs[sa.qname];
                     }
+                    
+                } else if (sa.inherit &&
+                    (sa.qname in parent.styleAttrs) &&
+                    !(sa.qname in isd_element.styleAttrs)) {
+
+                    isd_element.styleAttrs[sa.qname] = parent.styleAttrs[sa.qname];
+
                 }
 
             }
@@ -317,55 +315,55 @@
         /* initial value styling */
 
         for (var k in imscStyles.all) {
-            if (imscStyles.all.hasOwnProperty(k)) {
-                var ivs = imscStyles.all[k];
 
-                /* skip if value is already specified */
+            var ivs = imscStyles.all[k];
 
-                if (ivs.qname in isd_element.styleAttrs) continue;
+            /* skip if value is already specified */
 
-                /* skip tts:position if tts:origin is specified */
+            if (ivs.qname in isd_element.styleAttrs) continue;
 
-                if (ivs.qname === imscStyles.byName.position.qname &&
-                    imscStyles.byName.origin.qname in isd_element.styleAttrs)
-                    continue;
+            /* skip tts:position if tts:origin is specified */
 
-                /* skip tts:origin if tts:position is specified */
+            if (ivs.qname === imscStyles.byName.position.qname &&
+                imscStyles.byName.origin.qname in isd_element.styleAttrs)
+                continue;
 
-                if (ivs.qname === imscStyles.byName.origin.qname &&
-                    imscStyles.byName.position.qname in isd_element.styleAttrs)
-                    continue;
+            /* skip tts:origin if tts:position is specified */
+
+            if (ivs.qname === imscStyles.byName.origin.qname &&
+                imscStyles.byName.position.qname in isd_element.styleAttrs)
+                continue;
             
-                /* determine initial value */
+            /* determine initial value */
             
-                var iv = doc.head.styling.initials[ivs.qname] || ivs.initial;
+            var iv = doc.head.styling.initials[ivs.qname] || ivs.initial;
 
-                if (iv === null) {
-                    /* skip processing if no initial value defined */
+            if (iv === null) {
+                /* skip processing if no initial value defined */
 
-                    continue;
+                continue;
+            }
+
+            /* apply initial value to elements other than region only if non-inherited */
+
+            if (isd_element.kind === 'region' || (ivs.inherit === false && iv !== null)) {
+
+                var piv = ivs.parse(iv);
+
+                if (piv !== null) {
+
+                    isd_element.styleAttrs[ivs.qname] = piv;
+
+                    /* keep track of the style as specified */
+
+                    spec_attr[ivs.qname] = true;
+
+                } else {
+
+                    reportError(errorHandler, "Invalid initial value for '" + ivs.qname + "' on element '" + isd_element.kind);
+
                 }
 
-                /* apply initial value to elements other than region only if non-inherited */
-
-                if (isd_element.kind === 'region' || (ivs.inherit === false && iv !== null)) {
-
-                    var piv = ivs.parse(iv);
-
-                    if (piv !== null) {
-
-                        isd_element.styleAttrs[ivs.qname] = piv;
-
-                        /* keep track of the style as specified */
-
-                        spec_attr[ivs.qname] = true;
-
-                    } else {
-
-                        reportError(errorHandler, "Invalid initial value for '" + ivs.qname + "' on element '" + isd_element.kind);
-
-                    }
-                }
             }
 
         }
@@ -374,40 +372,39 @@
         /* TODO: get rid of spec_attr */
 
         for (var z in imscStyles.all) {
-            if (imscStyles.all.hasOwnProperty(z)) {
-                var cs = imscStyles.all[z];
 
-                if (!(cs.qname in spec_attr)) continue;
+            var cs = imscStyles.all[z];
 
-                if (cs.compute !== null) {
+            if (!(cs.qname in spec_attr)) continue;
 
-                    var cstyle = cs.compute(
-                      /*doc, parent, element, attr, context*/
-                      doc,
-                      parent,
-                      isd_element,
-                      isd_element.styleAttrs[cs.qname],
-                      context
+            if (cs.compute !== null) {
+
+                var cstyle = cs.compute(
+                    /*doc, parent, element, attr, context*/
+                    doc,
+                    parent,
+                    isd_element,
+                    isd_element.styleAttrs[cs.qname],
+                    context
                     );
 
-                    if (cstyle !== null) {
+                if (cstyle !== null) {
 
-                        isd_element.styleAttrs[cs.qname] = cstyle;
+                    isd_element.styleAttrs[cs.qname] = cstyle;
                     
-                    } else {
-                        /* if the style cannot be computed, replace it by its initial value */
+                } else {
+                    /* if the style cannot be computed, replace it by its initial value */
 
-                        isd_element.styleAttrs[cs.qname] = cs.compute(
-                          /*doc, parent, element, attr, context*/
-                          doc,
-                          parent,
-                          isd_element,
-                          cs.parse(cs.initial),
-                          context
-                        );
+                    isd_element.styleAttrs[cs.qname] = cs.compute(
+                        /*doc, parent, element, attr, context*/
+                        doc,
+                        parent,
+                        isd_element,
+                        cs.parse(cs.initial),
+                        context
+                    );
 
-                        reportError(errorHandler, "Style '" + cs.qname + "' on element '" + isd_element.kind + "' cannot be computed");
-                    }
+                    reportError(errorHandler, "Style '" + cs.qname + "' on element '" + isd_element.kind + "' cannot be computed");
                 }
             }
 
@@ -441,23 +438,24 @@
             }
 
         } else if ('contents' in elem) {
+
             contents = elem.contents;
 
         }
 
         for (var x in contents) {
-            if (contents.hasOwnProperty(x)) {
-                var c = isdProcessContentElement(doc, offset, region, body, isd_element, associated_region_id, contents[x], errorHandler, context);
 
-                /* 
-                 * keep child element only if they are non-null and their region match 
-                 * the region of this element
-                 */
+            var c = isdProcessContentElement(doc, offset, region, body, isd_element, associated_region_id, contents[x], errorHandler, context);
 
-                if (c !== null) {
+            /* 
+             * keep child element only if they are non-null and their region match 
+             * the region of this element
+             */
 
-                    isd_element.contents.push(c.element);
-                }
+            if (c !== null) {
+
+                isd_element.contents.push(c.element);
+
             }
 
         }
@@ -465,51 +463,51 @@
         /* remove styles that are not applicable */
 
         for (var qnameb in isd_element.styleAttrs) {
-            if (isd_element.styleAttrs.hasOwnProperty(qnameb)) {
-                /* true if not applicable */
 
-                var na = false;
+            /* true if not applicable */
 
-                /* special applicability of certain style properties to ruby container spans */
-                /* TODO: in the future ruby elements should be translated to elements instead of kept as spans */
+            var na = false;
 
-                if (isd_element.kind === 'span') {
+            /* special applicability of certain style properties to ruby container spans */
+            /* TODO: in the future ruby elements should be translated to elements instead of kept as spans */
 
-                    var rsp = isd_element.styleAttrs[imscStyles.byName.ruby.qname];
+            if (isd_element.kind === 'span') {
 
-                    na = ( rsp === 'container' || rsp === 'textContainer' || rsp === 'baseContainer' ) && 
-                        _rcs_na_styles.indexOf(qnameb) !== -1;
+                var rsp = isd_element.styleAttrs[imscStyles.byName.ruby.qname];
 
-                    if (! na) {
+                na = ( rsp === 'container' || rsp === 'textContainer' || rsp === 'baseContainer' ) && 
+                    _rcs_na_styles.indexOf(qnameb) !== -1;
 
-                        na = rsp !== 'container' &&
-                            qnameb === imscStyles.byName.rubyAlign.qname;
-
-                    }
-
-                    if (! na) {
-
-                        na =  (! (rsp === 'textContainer' || rsp === 'text')) &&
-                            qnameb === imscStyles.byName.rubyPosition.qname;
-
-                    }
-
-                }
-
-                /* normal applicability */
-            
                 if (! na) {
 
-                    var da = imscStyles.byQName[qnameb];
-                    na = da.applies.indexOf(isd_element.kind) === -1;
+                    na = rsp !== 'container' &&
+                        qnameb === imscStyles.byName.rubyAlign.qname;
 
                 }
 
+                if (! na) {
 
-                if (na) {
-                    delete isd_element.styleAttrs[qnameb];
+                    na =  (! (rsp === 'textContainer' || rsp === 'text')) &&
+                        qnameb === imscStyles.byName.rubyPosition.qname;
+
                 }
+
             }
+
+            /* normal applicability */
+            
+            if (! na) {
+
+                var da = imscStyles.byQName[qnameb];
+                na = da.applies.indexOf(isd_element.kind) === -1;
+
+            }
+
+
+            if (na) {
+                delete isd_element.styleAttrs[qnameb];
+            }
+
         }
 
         /* trim whitespace around explicit line breaks */
@@ -625,26 +623,26 @@
     function constructSpanList(element, elist) {
 
         for (var i in element.contents) {
-            if (element.contents.hasOwnProperty(i)) {
-                var child = element.contents[i];
-                var ruby = child.styleAttrs[imscStyles.byName.ruby.qname];
 
-                if (child.kind === 'span' && (ruby === "textContainer" || ruby === "text")) {
+            var child = element.contents[i];
+            var ruby = child.styleAttrs[imscStyles.byName.ruby.qname];
 
-                    /* skip ruby text and text containers, which are handled on their own */
+            if (child.kind === 'span' && (ruby === "textContainer" || ruby === "text")) {
+
+                /* skip ruby text and text containers, which are handled on their own */
             
-                    continue;
+                continue;
 
-                } else if ('contents' in child) {
+            } else if ('contents' in child) {
     
-                    constructSpanList(child, elist);
+                constructSpanList(child, elist);
     
-                } else if ((child.kind === 'span' && child.text.length !== 0) || child.kind === 'br') {
+            } else if ((child.kind === 'span' && child.text.length !== 0) || child.kind === 'br') {
 
-                    /* skip empty spans */
+                /* skip empty spans */
 
-                    elist.push(child);
-                }
+                elist.push(child);
+
             }
 
         }
@@ -699,10 +697,9 @@
         this.styleAttrs = {};
 
         for (var sname in ttelem.styleAttrs) {
-            if (ttelem.styleAttrs.hasOwnProperty(sname)) {
-                this.styleAttrs[sname] =
-                    ttelem.styleAttrs[sname];
-            }
+
+            this.styleAttrs[sname] =
+                ttelem.styleAttrs[sname];
         }
         
         /* copy src and type if image */

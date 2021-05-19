@@ -1,0 +1,1669 @@
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ebuttm="urn:ebu:tt:metadata" xmlns:ebutts="urn:ebu:tt:style" xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter" xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ittp:activeArea="12% 5% 76% 90%" ttp:cellResolution="40 24" ttp:timeBase="media" xml:lang="en-GB" xml:space="default">
+<head>
+<ttm:copyright>BBC</ttm:copyright>
+<metadata>
+<ebuttm:documentMetadata>
+<ebuttm:conformsToStandard>http://www.w3.org/ns/ttml/profile/imsc1/text</ebuttm:conformsToStandard>
+<ebuttm:conformsToStandard>urn:ebu:tt:distribution:2018-04</ebuttm:conformsToStandard>
+<ebuttm:documentOriginatingSystem>ebu-tt-live.3.0.0.EBUTT3EBUTTDConverter/Distiller(2db248b)</ebuttm:documentOriginatingSystem>
+</ebuttm:documentMetadata>
+</metadata>
+<styling>
+<style ebutts:linePadding="0.5c" tts:textAlign="start" xml:id="S1"/>
+<style tts:textAlign="center" xml:id="S2"/>
+<style tts:backgroundColor="#000000ff" tts:color="#ffffffff" xml:id="S3"/>
+<style tts:backgroundColor="#000000ff" tts:color="#ffff00ff" xml:id="S4"/>
+<style tts:backgroundColor="#000000ff" tts:color="#00ffffff" xml:id="S5"/>
+<style xml:id="S6"/>
+<style tts:backgroundColor="#000000ff" tts:color="#00ff00ff" xml:id="S7"/>
+<style itts:fillLineGap="true" xml:id="StyleFillLineGapTrue"/>
+<style tts:fontFamily="ReithSans, Arial, Roboto, proportionalSansSerif, default" xml:id="fontFamilyStyle"/>
+<style tts:fontSize="150%" tts:lineHeight="120%" xml:id="autogenFontStyle_n_150_120"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="76% 7.826%" tts:origin="12% 87.174%" tts:overflow="visible" xml:id="R4"/>
+<region tts:displayAlign="after" tts:extent="76% 15.652%" tts:origin="12% 79.348%" tts:overflow="visible" xml:id="R9"/>
+<region tts:displayAlign="after" tts:extent="75.062% 15.652%" tts:origin="12% 79.348%" tts:overflow="visible" xml:id="agr_0_20_39.5_4_after"/>
+<region tts:displayAlign="after" tts:extent="74.125% 15.652%" tts:origin="12% 79.348%" tts:overflow="visible" xml:id="agr_0_20_39_4_after"/>
+<region tts:displayAlign="after" tts:extent="73.188% 15.652%" tts:origin="14.812% 79.348%" tts:overflow="visible" xml:id="agr_1.5_20_38.5_4_after"/>
+<region tts:displayAlign="after" tts:extent="73.188% 15.652%" tts:origin="12% 79.348%" tts:overflow="visible" xml:id="agr_0_20_38.5_4_after"/>
+<region tts:displayAlign="after" tts:extent="76% 7.826%" tts:origin="12% 79.348%" tts:overflow="visible" xml:id="agr_0_20_40_2_after"/>
+<region tts:displayAlign="after" tts:extent="38.5% 7.826%" tts:origin="12% 87.174%" tts:overflow="visible" xml:id="agr_0_22_20_2_after"/>
+<region tts:displayAlign="after" tts:extent="71.312% 15.652%" tts:origin="16.688% 79.348%" tts:overflow="visible" xml:id="agr_2.5_20_37.5_4_after"/>
+<region tts:displayAlign="before" tts:extent="73.188% 15.652%" tts:origin="12% 5%" tts:overflow="visible" xml:id="agr_0_1_38.5_4_after"/>
+<region tts:displayAlign="after" tts:extent="72.25% 15.652%" tts:origin="15.75% 79.348%" tts:overflow="visible" xml:id="agr_2_20_38_4_after"/>
+<region tts:displayAlign="after" tts:extent="68.5% 15.652%" tts:origin="19.5% 79.348%" tts:overflow="visible" xml:id="agr_4_20_36_4_after"/>
+<region tts:displayAlign="after" tts:extent="74.125% 15.652%" tts:origin="13.875% 79.348%" tts:overflow="visible" xml:id="agr_1_20_39_4_after"/>
+<region tts:displayAlign="after" tts:extent="69.438% 15.652%" tts:origin="18.562% 79.348%" tts:overflow="visible" xml:id="agr_3.5_20_36.5_4_after"/>
+<region tts:displayAlign="after" tts:extent="74.125% 7.826%" tts:origin="12% 79.348%" tts:overflow="visible" xml:id="agr_0_20_39_2_after"/>
+<region tts:displayAlign="after" tts:extent="70.375% 15.652%" tts:origin="17.625% 79.348%" tts:overflow="visible" xml:id="agr_3_20_37_4_after"/>
+<region tts:displayAlign="after" tts:extent="75.062% 15.652%" tts:origin="12.938% 79.348%" tts:overflow="visible" xml:id="agr_0.5_20_39.5_4_after"/>
+<region tts:displayAlign="after" tts:extent="36.625% 7.826%" tts:origin="12% 79.348%" tts:overflow="visible" xml:id="agr_0_20_19_2_after"/>
+</layout>
+</head>
+<body ttm:role="caption">
+<div style="autogenFontStyle_n_150_120 S1 StyleFillLineGapTrue fontFamilyStyle">
+<p begin="00:00:27.840" end="00:00:29.360" region="R4" style="S2" xml:id="C2">
+<span style="S4">OK, so,</span>
+</p>
+<p begin="00:00:29.360" end="00:00:31.280" region="agr_0_20_39.5_4_after" style="S2" xml:id="C3_1">
+<span style="S4">I'll pop down Brick Lane</span>
+<br/>
+<span style="S4">and get the bagels,</span>
+</p>
+<p begin="00:00:31.280" end="00:00:32.640" region="R4" style="S2" xml:id="C4">
+<span style="S4">your dad's sorting drinks,</span>
+</p>
+<p begin="00:00:32.640" end="00:00:34.400" region="R4" style="S2" xml:id="C5">
+<span style="S4">and you - you're on balloon duty.</span>
+</p>
+<p begin="00:00:34.400" end="00:00:36.320" region="R4" style="S2" xml:id="C6">
+<span style="S5">Balloons? Mum, it's Shirl.</span>
+</p>
+<p begin="00:00:36.320" end="00:00:38.160" region="agr_0_20_39_4_after" style="S2" xml:id="C7_1">
+<span style="S5">Shouldn't we just get</span>
+<br/>
+<span style="S5">her, like, a six-pack</span>
+</p>
+<p begin="00:00:38.160" end="00:00:40.840" region="R9" style="S2" xml:id="C8">
+<span style="S5">and some knock-off fags down the</span>
+<br/>
+<span style="S5">market? You know what she's like.</span>
+</p>
+<p begin="00:00:40.840" end="00:00:43.200" region="agr_0_20_39.5_4_after" style="S2" xml:id="C9_1">
+<span style="S4">Yeah, and you know what</span>
+<br/>
+<span style="S4">I'm like, so zip it, OK?</span>
+</p>
+<p begin="00:00:43.200" end="00:00:46.760" region="R9" style="S2" xml:id="C10_1">
+<span style="S4">We are going to have a nice,</span>
+<br/>
+<span style="S4">civilised, family picnic</span>
+</p>
+<p begin="00:00:46.760" end="00:00:48.160" region="R4" style="S2" xml:id="C11">
+<span style="S4">before you leave us again.</span>
+</p>
+<p begin="00:00:48.160" end="00:00:51.360" region="agr_1.5_20_38.5_4_after" style="S2" xml:id="C12_1">
+<span style="S4">And Shirl can like it or lump it -</span>
+<br/>
+<span style="S4">early birthday surprise or not.</span>
+</p>
+<p begin="00:00:52.960" end="00:00:54.840" region="R4" style="S2" xml:id="C13">
+<span style="S4">It's so good to have you home.</span>
+</p>
+<p begin="00:00:54.840" end="00:00:57.080" region="agr_0_20_38.5_4_after" style="S2" xml:id="C14_1">
+<span style="S4">Even if it is just</span>
+<br/>
+<span style="S4">for a little while.</span>
+</p>
+<p begin="00:00:57.080" end="00:00:58.760" region="R4" style="S2" xml:id="C15">
+<span style="S4">Let's enjoy it, eh?</span>
+</p>
+<p begin="00:00:58.760" end="00:01:01.040" region="R4" style="S2" xml:id="C16">
+<span style="S4">Oh! Plastics for the fizz.</span>
+</p>
+<p begin="00:01:03.320" end="00:01:04.480" region="R4" style="S6" ttm:role="sound" xml:id="C17">
+<span style="S3">PHONE RINGS</span>
+</p>
+<p begin="00:01:06.880" end="00:01:09.080" region="agr_0_20_38.5_4_after" style="S2" xml:id="C18_1">
+<span style="S5">Tam, I've been trying</span>
+<br/>
+<span style="S5">you all morning.</span>
+</p>
+<p begin="00:01:11.360" end="00:01:13.440" region="R4" style="S2" xml:id="C19">
+<span style="S5">No, because I need the money today.</span>
+</p>
+<p begin="00:01:15.760" end="00:01:18.520" region="R9" style="S2" xml:id="C20_1">
+<span style="S5">Yes, I'm aware of the fact</span>
+<br/>
+<span style="S5">that you're flying for work.</span>
+</p>
+<p begin="00:01:22" end="00:01:24.800" region="R9" style="S2" xml:id="C21_1">
+<span style="S5">All right, fine, just call</span>
+<br/>
+<span style="S5">me when you land, OK? Bye!</span>
+</p>
+<p begin="00:01:26.040" end="00:01:27.400" region="R4" style="S2" xml:id="C22">
+<span style="S4">Everything all right?</span>
+</p>
+<p begin="00:01:27.400" end="00:01:29.560" region="agr_0_20_39_4_after" style="S2" xml:id="C23_1">
+<span style="S5">Yeah, it's just Tamwar,</span>
+<br/>
+<span style="S5">the reception's really bad.</span>
+</p>
+<p begin="00:01:30.720" end="00:01:32.560" region="agr_0_20_40_2_after" style="S2" ttm:role="sound" xml:id="C24_1">
+<span style="S4">Got 'em.</span>
+</p>
+<p begin="00:01:30.720" end="00:01:32.560" region="agr_0_22_20_2_after" style="S2" ttm:role="sound" xml:id="C24_2">
+<span style="S3">SHE CHUCKLES</span>
+</p>
+<p begin="00:01:32.560" end="00:01:34.840" region="agr_0_20_38.5_4_after" style="S2" xml:id="C25_1">
+<span style="S4">Oh, and don't worry -</span>
+<br/>
+<span style="S4">they're reusables.</span>
+</p>
+<p begin="00:01:34.840" end="00:01:37.360" region="R4" style="S2" xml:id="C26">
+<span style="S5">Right, I'll see you over there.</span>
+<span style="S4"> OK!</span>
+</p>
+<p begin="00:01:43.320" end="00:01:45.400" region="R9" style="S2" xml:id="C27_1">
+<span style="S7">You all right?</span>
+<br/>
+<span style="S7">Hormones playing up again or...?</span>
+</p>
+<p begin="00:01:45.400" end="00:01:47.160" region="R4" style="S2" xml:id="C28">
+<span style="S4">No, not today.</span>
+</p>
+<p begin="00:01:47.160" end="00:01:49.600" region="agr_0_20_38.5_4_after" style="S2" xml:id="C29_1">
+<span style="S4">I think Tamwar's</span>
+<br/>
+<span style="S4">coming over to surprise us.</span>
+</p>
+<p begin="00:01:49.600" end="00:01:51.760" region="agr_0_20_39.5_4_after" style="S2" xml:id="C30_1">
+<span style="S7">Tamwar, really?</span>
+<br/>
+<span style="S7">What makes you say that?</span>
+</p>
+<p begin="00:01:51.760" end="00:01:54.080" region="agr_0_20_38.5_4_after" style="S2" xml:id="C31_1">
+<span style="S4">Well, let's just say</span>
+<br/>
+<span style="S4">I know my daughter, Mick.</span>
+</p>
+<p begin="00:01:55.640" end="00:01:57.320" region="R4" style="S2" xml:id="C32">
+<span style="S3">Oh, what!</span>
+</p>
+<p begin="00:01:57.320" end="00:01:58.960" region="R4" style="S2" xml:id="C33">
+<span style="S5">What?</span>
+</p>
+<p begin="00:01:58.960" end="00:02:00.760" region="R4" style="S2" xml:id="C34">
+<span style="S3">I'm glad they're cutting us off.</span>
+</p>
+<p begin="00:02:00.760" end="00:02:04.800" region="agr_0_20_39_4_after" style="S2" xml:id="C35_1">
+<span style="S3">25 quid a month and you can't</span>
+<br/>
+<span style="S3">even watch a film in the toilet</span>
+</p>
+<p begin="00:02:04.800" end="00:02:06.080" region="R4" style="S2" xml:id="C36">
+<span style="S3">without it buffering.</span>
+</p>
+<p begin="00:02:06.080" end="00:02:07.840" region="agr_0_20_39.5_4_after" style="S2" xml:id="C37_1">
+<span style="S5">Yeah, well, you</span>
+<br/>
+<span style="S5">shouldn't be in the toilet</span>
+</p>
+<p begin="00:02:07.840" end="00:02:09.760" region="R4" style="S2" xml:id="C38">
+<span style="S5">watching videos anyway, pervo!</span>
+</p>
+<p begin="00:02:11.640" end="00:02:12.920" region="R4" style="S2" xml:id="C39">
+<span style="S7">Hey...</span>
+</p>
+<p begin="00:02:15.120" end="00:02:17.840" region="agr_0_20_39.5_4_after" style="S2" xml:id="C40_1">
+<span style="S3">Bailey needs the internet</span>
+<br/>
+<span style="S3">for her homework, all right?</span>
+</p>
+<p begin="00:02:17.840" end="00:02:20.120" region="agr_2.5_20_37.5_4_after" style="S2" xml:id="C41_1">
+<span style="S3">And we can't afford it.</span>
+<span style="S5"> Well, we'll</span>
+<br/>
+<span style="S5">get a better deal,</span>
+</p>
+<p begin="00:02:20.120" end="00:02:21.760" region="agr_0_20_38.5_4_after" style="S2" xml:id="C42_1">
+<span style="S5">we're just stuck in</span>
+<br/>
+<span style="S5">a rut, that's all.</span>
+</p>
+<p begin="00:02:21.760" end="00:02:23.600" region="agr_0_20_39.5_4_after" style="S2" xml:id="C43_1">
+<span style="S3">More than a rut, babe.</span>
+<br/>
+<span style="S3">We're six feet under.</span>
+</p>
+<p begin="00:02:23.600" end="00:02:25.280" region="R4" style="S2" xml:id="C44">
+<span style="S5">Oh, don't you think I know that?</span>
+</p>
+<p begin="00:02:25.280" end="00:02:27.800" region="agr_0_20_39.5_4_after" style="S2" xml:id="C45_1">
+<span style="S5">Look, I'm the one turning</span>
+<br/>
+<span style="S5">lights off in empty rooms.</span>
+</p>
+<p begin="00:02:27.800" end="00:02:30.520" region="agr_0_20_39.5_4_after" style="S2" xml:id="C46_1">
+<span style="S5">I'm the one turning</span>
+<br/>
+<span style="S5">one dinner into two.</span>
+</p>
+<p begin="00:02:30.520" end="00:02:32.920" region="agr_0_20_38.5_4_after" style="S2" xml:id="C47_1">
+<span style="S5">I'm the one stuck in the</span>
+<br/>
+<span style="S5">trenches, Mitch, all right?</span>
+</p>
+<p begin="00:02:32.920" end="00:02:35.520" region="agr_0_20_39_4_after" style="S2" xml:id="C48_1">
+<span style="S5">I know how bad it is.</span>
+<br/>
+<span style="S3">All right, all right.</span>
+</p>
+<p begin="00:02:35.520" end="00:02:38.360" region="R9" style="S2" xml:id="C49">
+<span style="S3">What about your redundancy money?</span>
+<br/>
+<span style="S3">When's that due? I mean that'll...</span>
+</p>
+<p begin="00:02:38.360" end="00:02:40.680" region="R4" style="S2" xml:id="C50">
+<span style="S5">Oh, here she is, Rip Van Winkle.</span>
+</p>
+<p begin="00:02:40.680" end="00:02:43.120" region="agr_0_20_38.5_4_after" style="S2" xml:id="C51_1">
+<span style="S5">If you don't get a move on,</span>
+<br/>
+<span style="S5">you're going to be late.</span>
+</p>
+<p begin="00:02:44.800" end="00:02:46.560" region="R4" style="S2" xml:id="C52">
+<span style="S5">Oh, have a look at them shoes.</span>
+</p>
+<p begin="00:02:46.560" end="00:02:49.600" region="agr_0_1_38.5_4_after" style="S2" xml:id="C53_1">
+<span style="S5">I'll give them a good going</span>
+<br/>
+<span style="S5">over tonight, all right?</span>
+</p>
+<p begin="00:02:49.600" end="00:02:51.120" region="R4" style="S2" xml:id="C54">
+<span style="S5">Can't have you showing us up during</span>
+</p>
+<p begin="00:02:51.120" end="00:02:52.920" region="agr_0_20_39_4_after" style="S2" xml:id="C55_1">
+<span style="S5">your winner's</span>
+<br/>
+<span style="S5">speech tomorrow, right?</span>
+</p>
+<p begin="00:02:52.920" end="00:02:54.480" region="R4" style="S2" xml:id="C56">
+<span style="S4">Thanks.</span>
+</p>
+<p begin="00:02:54.480" end="00:02:55.640" region="R4" style="S2" xml:id="C57">
+<span style="S3">See you later, baby.</span>
+</p>
+<p begin="00:02:58.120" end="00:03:00.280" region="R4" style="S6" ttm:role="sound" xml:id="C58">
+<span style="S3">KAREN SIGHS</span>
+</p>
+<p begin="00:03:02.960" end="00:03:04.560" region="R4" style="S2" xml:id="C59">
+<span style="S5">There ain't no redundancy.</span>
+</p>
+<p begin="00:03:05.760" end="00:03:08.160" region="R4" style="S2" xml:id="C60">
+<span style="S5">I didn't qualify for it.</span>
+<span style="S3"> What?!</span>
+</p>
+<p begin="00:03:08.160" end="00:03:09.840" region="R4" style="S2" xml:id="C61">
+<span style="S3">Everything's gone flat for me.</span>
+</p>
+<p begin="00:03:11.160" end="00:03:14.240" region="agr_0_20_39_4_after" style="S2" xml:id="C62_1">
+<span style="S3">I'm meeting Sammy later</span>
+<br/>
+<span style="S3">on about a job on site.</span>
+</p>
+<p begin="00:03:14.240" end="00:03:16.720" region="agr_2_20_38_4_after" style="S2" xml:id="C63_1">
+<span style="S3">But if he ain't got nothing,</span>
+<br/>
+<span style="S3">I don't know what I'm going to do.</span>
+</p>
+<p begin="00:03:16.720" end="00:03:19.560" region="agr_0_20_39_4_after" style="S2" xml:id="C64_1">
+<span style="S5">Oh, something'll come up.</span>
+<br/>
+<span style="S5">It always does.</span>
+</p>
+<p begin="00:03:19.560" end="00:03:21.520" region="agr_0_20_38.5_4_after" style="S2" xml:id="C65_1">
+<span style="S5">And I don't want any</span>
+<br/>
+<span style="S5">more talk about money</span>
+</p>
+<p begin="00:03:21.520" end="00:03:23.080" region="R4" style="S2" xml:id="C66">
+<span style="S5">in front of the kids, all right?</span>
+</p>
+<p begin="00:03:23.080" end="00:03:26.040" region="agr_1.5_20_38.5_4_after" style="S2" xml:id="C67_1">
+<span style="S5">I don't want them worrying.</span>
+<br/>
+<span style="S5">That's our job. You hear me? Yeah.</span>
+</p>
+<p begin="00:03:28.240" end="00:03:29.920" region="R4" style="S2" xml:id="C68">
+<span style="S4">So, what am I looking at?</span>
+</p>
+<p begin="00:03:29.920" end="00:03:31.680" region="R4" style="S2" xml:id="C69">
+<span style="S5">That's my list.</span>
+</p>
+<p begin="00:03:31.680" end="00:03:34.640" region="agr_0_20_38.5_4_after" style="S2" xml:id="C70_1">
+<span style="S5">Pros and cons of Bernie</span>
+<br/>
+<span style="S5">being our surrogate.</span>
+</p>
+<p begin="00:03:34.640" end="00:03:37.200" region="agr_0_20_38.5_4_after" style="S2" xml:id="C71_1">
+<span style="S4">You've got 'nice kid'</span>
+<br/>
+<span style="S4">under pros AND cons.</span>
+</p>
+<p begin="00:03:37.200" end="00:03:40.880" region="agr_4_20_36_4_after" style="S2" xml:id="C72_1">
+<span style="S5">Yeah, exactly.</span>
+<br/>
+<span style="S5">Just confused me more, to be honest.</span>
+</p>
+<p begin="00:03:40.880" end="00:03:43.120" region="R4" style="S2" xml:id="C73">
+<span style="S4">I mean, she IS a nice kid.</span>
+<span style="S5"> Yeah.</span>
+</p>
+<p begin="00:03:44.920" end="00:03:46.480" region="R4" style="S2" xml:id="C74">
+<span style="S4">But she's just a kid...</span>
+</p>
+<p begin="00:03:47.520" end="00:03:49.280" region="R4" style="S2" xml:id="C75">
+<span style="S4">..like Tiff.</span>
+</p>
+<p begin="00:03:49.280" end="00:03:53.200" region="R9" style="S2" xml:id="C76_1">
+<span style="S4">Can we really risk going through</span>
+<br/>
+<span style="S4">that kind of hurt again, eh?</span>
+</p>
+<p begin="00:03:57.440" end="00:03:59.160" region="R4" style="S6" xml:id="C77">
+<span style="S3">SHE KNOCKS</span>
+</p>
+<p begin="00:04:02.080" end="00:04:04.600" region="R4" style="S2" xml:id="C78">
+<span style="S5">Is this a bad time or what?</span>
+</p>
+<p begin="00:04:04.600" end="00:04:07.560" region="R9" style="S2" xml:id="C79_1">
+<span style="S3">Have you come for round two?</span>
+<br/>
+<span style="S3">Should I grab me gum-shield?</span>
+</p>
+<p begin="00:04:07.560" end="00:04:10.440" region="agr_0_20_38.5_4_after" style="S2" xml:id="C80_1">
+<span style="S5">I've actually come</span>
+<br/>
+<span style="S5">for a job, not a fight.</span>
+</p>
+<p begin="00:04:12.120" end="00:04:13.960" region="R4" style="S2" xml:id="C81">
+<span style="S5">Look, I live in the gym back home,</span>
+</p>
+<p begin="00:04:13.960" end="00:04:17.760" region="agr_0_20_39.5_4_after" style="S2" xml:id="C82_1">
+<span style="S5">so I know nutrition, I know</span>
+<br/>
+<span style="S5">how all the equipment works,</span>
+</p>
+<p begin="00:04:17.760" end="00:04:20.720" region="agr_0_20_39.5_4_after" style="S2" xml:id="C83_1">
+<span style="S5">so if you needed someone to</span>
+<br/>
+<span style="S5">run this place, I could do it.</span>
+</p>
+<p begin="00:04:21.840" end="00:04:23.640" region="R4" style="S2" xml:id="C84">
+<span style="S3">So, let me get this straight...</span>
+</p>
+<p begin="00:04:23.640" end="00:04:27.640" region="R9" style="S2" xml:id="C85">
+<span style="S3">You and your family hate my guts,</span>
+<br/>
+<span style="S3">but you still want to work for me?</span>
+</p>
+<p begin="00:04:27.640" end="00:04:29.640" region="R9" style="S2" xml:id="C86_1">
+<span style="S3">Well, I'm afraid</span>
+<br/>
+<span style="S3">we're fully staffed,</span>
+</p>
+<p begin="00:04:29.640" end="00:04:31.120" region="R4" style="S2" xml:id="C87">
+<span style="S3">so if you don't mind...</span>
+</p>
+<p begin="00:04:35.160" end="00:04:36.200" region="R4" style="S2" xml:id="C88">
+<span style="S5">What?</span>
+</p>
+<p begin="00:04:40.360" end="00:04:42.120" region="R4" style="S2" xml:id="C89">
+<span style="S5">Ooh...Billy...</span>
+</p>
+<p begin="00:04:43.240" end="00:04:44.360" region="R4" style="S2" xml:id="C90">
+<span style="S5">I need you.</span>
+</p>
+<p begin="00:04:46.160" end="00:04:48.920" region="agr_0_20_38.5_4_after" style="S2" xml:id="C91_1">
+<span style="S5">Suki wouldn't let me have</span>
+<br/>
+<span style="S5">the afternoon off, so...</span>
+</p>
+<p begin="00:04:48.920" end="00:04:51.240" region="R9" style="S2" xml:id="C92_1">
+<span style="S5">I need you to take</span>
+<br/>
+<span style="S5">Janet to her photoshoot.</span>
+</p>
+<p begin="00:04:51.240" end="00:04:53.680" region="R9" style="S2" xml:id="C93_1">
+<span style="S5">I mean, I can pick her up,</span>
+<br/>
+<span style="S5">I just need you to take her.</span>
+</p>
+<p begin="00:04:53.680" end="00:04:55.920" region="R4" style="S2" xml:id="C94">
+<span style="S3">You sure you don't want to ask Jay?</span>
+</p>
+<p begin="00:04:55.920" end="00:04:57.720" region="R9" style="S2" xml:id="C95_1">
+<span style="S3">Thought I couldn't</span>
+<br/>
+<span style="S3">be trusted any more.</span>
+</p>
+<p begin="00:04:57.720" end="00:05:01.320" region="agr_0_20_39_4_after" style="S2" xml:id="C96_1">
+<span style="S5">Let's not be digging up old</span>
+<br/>
+<span style="S5">ground, yeah? You're her dad.</span>
+</p>
+<p begin="00:05:01.320" end="00:05:03.480" region="R4" style="S2" xml:id="C97">
+<span style="S5">And if I can't take her, you should.</span>
+</p>
+<p begin="00:05:06" end="00:05:07.760" region="R4" style="S2" xml:id="C98">
+<span style="S5">So will you do it or not?</span>
+</p>
+<p begin="00:05:07.760" end="00:05:09.880" region="R4" style="S2" xml:id="C99">
+<span style="S3">Yes, course, I will. No problem.</span>
+</p>
+<p begin="00:05:09.880" end="00:05:12.560" region="R4" style="S2" xml:id="C100">
+<span style="S7">Right...</span>
+<span style="S5"> Just...</span>
+</p>
+<p begin="00:05:12.560" end="00:05:14.400" region="R4" style="S2" xml:id="C101">
+<span style="S5">Just be careful, yeah?</span>
+</p>
+<p begin="00:05:14.400" end="00:05:17.360" region="agr_0_20_39.5_4_after" style="S2" xml:id="C102_1">
+<span style="S3">Hang on, hang on, who's</span>
+<br/>
+<span style="S3">digging up old ground now?</span>
+</p>
+<p begin="00:05:17.360" end="00:05:20.880" region="agr_4_20_36_4_after" style="S2" xml:id="C103_1">
+<span style="S3">I told you I thought Jay was picking</span>
+<br/>
+<span style="S3">her up...</span>
+<span style="S5"> No, no, it's not that.</span>
+</p>
+<p begin="00:05:20.880" end="00:05:22.720" region="R4" style="S2" xml:id="C104">
+<span style="S5">It's just...</span>
+</p>
+<p begin="00:05:22.720" end="00:05:25.200" region="agr_0_20_39_4_after" style="S2" xml:id="C105_1">
+<span style="S5">Well, I know what you're like</span>
+<br/>
+<span style="S5">when it comes to, you know,</span>
+</p>
+<p begin="00:05:25.200" end="00:05:28.040" region="R9" style="S2" xml:id="C106_1">
+<span style="S5">your opinions on the</span>
+<br/>
+<span style="S5">modelling world and...</span>
+</p>
+<p begin="00:05:28.040" end="00:05:30.840" region="agr_0_20_38.5_4_after" style="S2" xml:id="C107_1">
+<span style="S5">Well, I just don't</span>
+<br/>
+<span style="S5">want you being all...</span>
+</p>
+<p begin="00:05:30.840" end="00:05:34.720" region="agr_0_20_38.5_4_after" style="S2" xml:id="C108_1">
+<span style="S5">"Billy Big Bananas" in there.</span>
+<br/>
+<span style="S3">"Billy Big Bananas"?</span>
+</p>
+<p begin="00:05:34.720" end="00:05:36.800" region="R4" style="S2" xml:id="C109">
+<span style="S5">Yeah, I mean, you know what I mean.</span>
+</p>
+<p begin="00:05:36.800" end="00:05:39.880" region="agr_0_20_39_4_after" style="S2" xml:id="C110_1">
+<span style="S5">She's had a rough time with</span>
+<br/>
+<span style="S5">all this Amy stuff and...</span>
+</p>
+<p begin="00:05:39.880" end="00:05:42.440" region="agr_0_20_39_4_after" style="S2" xml:id="C111_1">
+<span style="S5">..I really want her</span>
+<br/>
+<span style="S5">to enjoy this week.</span>
+</p>
+<p begin="00:05:42.440" end="00:05:44.760" region="R4" style="S2" xml:id="C112">
+<span style="S5">It's her first day, OK?</span>
+</p>
+<p begin="00:05:47.320" end="00:05:49.360" region="R4" style="S2" xml:id="C113">
+<span style="S5">Best behaviour, right?</span>
+</p>
+<p begin="00:05:49.360" end="00:05:50.760" region="R4" style="S2" xml:id="C114">
+<span style="S3">Yes, best behaviour.</span>
+</p>
+<p begin="00:05:50.760" end="00:05:52.040" region="R4" style="S2" xml:id="C115">
+<span style="S3">QUIETLY:</span>
+<span style="S7"> Thank you.</span>
+</p>
+<p begin="00:05:56.200" end="00:05:58.720" region="R4" style="S2" xml:id="C116">
+<span style="S4">Oh, look at that face!</span>
+</p>
+<p begin="00:05:58.720" end="00:06:00.240" region="R4" style="S2" xml:id="C117">
+<span style="S4">I knew it.</span>
+</p>
+<p begin="00:06:00.240" end="00:06:02.960" region="agr_0_20_39_4_after" style="S2" xml:id="C118_1">
+<span style="S4">I'm getting dumped in a</span>
+<br/>
+<span style="S4">public place here, ain't I?</span>
+</p>
+<p begin="00:06:02.960" end="00:06:05.280" region="R4" style="S2" xml:id="C119">
+<span style="S3">Course you're not.</span>
+<span style="S4"> You sure?</span>
+</p>
+<p begin="00:06:05.280" end="00:06:09" region="R9" style="S2" xml:id="C120_1">
+<span style="S4">I mean, you was quiet at dinner,</span>
+<br/>
+<span style="S4">but I put that down to nerves.</span>
+</p>
+<p begin="00:06:09" end="00:06:12.480" region="R4" style="S2" xml:id="C121">
+<span style="S4">But now? A random text to 'talk'.</span>
+</p>
+<p begin="00:06:12.480" end="00:06:16.400" region="agr_0_20_38.5_4_after" style="S2" xml:id="C122_1">
+<span style="S4">Dumped after one date is</span>
+<br/>
+<span style="S4">a new low, I have to say.</span>
+</p>
+<p begin="00:06:16.400" end="00:06:18.240" region="R4" style="S2" xml:id="C123">
+<span style="S4">Well done, Molls.</span>
+</p>
+<p begin="00:06:18.240" end="00:06:20.600" region="R4" style="S2" xml:id="C124">
+<span style="S3">No, no... Look, I had a great time.</span>
+</p>
+<p begin="00:06:20.600" end="00:06:22.120" region="R4" style="S2" xml:id="C125">
+<span style="S3">You know I did.</span>
+</p>
+<p begin="00:06:22.120" end="00:06:24.080" region="R4" style="S2" xml:id="C126">
+<span style="S3">I just want advice, that's all.</span>
+</p>
+<p begin="00:06:24.080" end="00:06:26.680" region="R4" style="S2" xml:id="C127">
+<span style="S4">Well, in that case...</span>
+</p>
+<p begin="00:06:26.680" end="00:06:27.920" region="R4" style="S2" xml:id="C128">
+<span style="S4">..I'm all ears.</span>
+</p>
+<p begin="00:06:30.240" end="00:06:31.800" region="R4" style="S2" xml:id="C129">
+<span style="S3">Do you like kids?</span>
+</p>
+<p begin="00:06:31.800" end="00:06:34.640" region="agr_4_20_36_4_after" style="S2" xml:id="C130_1">
+<span style="S4">It's a bit early for that, isn't it?</span>
+<br/>
+<span style="S3">No, I mean in general.</span>
+</p>
+<p begin="00:06:35.720" end="00:06:37.760" region="R4" style="S2" xml:id="C131">
+<span style="S4">Bit more than cats.</span>
+</p>
+<p begin="00:06:37.760" end="00:06:39.280" region="R4" style="S2" xml:id="C132">
+<span style="S4">On a par with puppies.</span>
+</p>
+<p begin="00:06:40.920" end="00:06:41.960" region="R4" style="S2" xml:id="C133">
+<span style="S4">Why?</span>
+</p>
+<p begin="00:06:44.480" end="00:06:46.760" region="R4" style="S2" xml:id="C134">
+<span style="S3">My...mate.</span>
+</p>
+<p begin="00:06:47.760" end="00:06:49.680" region="R4" style="S2" xml:id="C135">
+<span style="S3">She's offered to be a surrogate.</span>
+</p>
+<p begin="00:06:51.200" end="00:06:53" region="R4" style="S2" xml:id="C136">
+<span style="S3">And now she's having doubts.</span>
+</p>
+<p begin="00:06:54.160" end="00:06:56.440" region="R4" style="S2" xml:id="C137">
+<span style="S3">There's this couple that she knows</span>
+</p>
+<p begin="00:06:56.440" end="00:06:59.800" region="R4" style="S2" xml:id="C138">
+<span style="S3">and...they want a baby like mad...</span>
+</p>
+<p begin="00:06:59.800" end="00:07:02.080" region="R4" style="S2" xml:id="C139">
+<span style="S3">..and she's offered them a chance...</span>
+</p>
+<p begin="00:07:03.320" end="00:07:05.240" region="R4" style="S2" xml:id="C140">
+<span style="S3">..for money.</span>
+</p>
+<p begin="00:07:05.240" end="00:07:07.440" region="R4" style="S2" xml:id="C141">
+<span style="S3">A lot of money.</span>
+</p>
+<p begin="00:07:07.440" end="00:07:08.720" region="R4" style="S2" xml:id="C142">
+<span style="S3">Money she needs.</span>
+</p>
+<p begin="00:07:10.400" end="00:07:13.800" region="R4" style="S2" xml:id="C143">
+<span style="S3">She... She was sure at first...</span>
+</p>
+<p begin="00:07:13.800" end="00:07:14.840" region="R4" style="S2" xml:id="C144">
+<span style="S3">..but now...</span>
+</p>
+<p begin="00:07:16.160" end="00:07:17.920" region="R4" style="S2" xml:id="C145">
+<span style="S4">This friend ain't you, is it?</span>
+</p>
+<p begin="00:07:17.920" end="00:07:20.720" region="R4" style="S6" ttm:role="sound" xml:id="C146">
+<span style="S3">BERNADETTE LAUGHS</span>
+</p>
+<p begin="00:07:20.720" end="00:07:22.320" region="R4" style="S2" xml:id="C147">
+<span style="S3">Don't be silly.</span>
+</p>
+<p begin="00:07:22.320" end="00:07:23.800" region="R4" style="S2" xml:id="C148">
+<span style="S4">Good.</span>
+</p>
+<p begin="00:07:23.800" end="00:07:25.720" region="agr_0_20_38.5_4_after" style="S2" xml:id="C149_1">
+<span style="S4">Baby bumps kind of</span>
+<br/>
+<span style="S4">freak me out a bit.</span>
+</p>
+<p begin="00:07:28.400" end="00:07:32.920" region="R9" style="S2" xml:id="C150_1">
+<span style="S4">I've seen enough films to know</span>
+<br/>
+<span style="S4">rent-a-womb never works.</span>
+</p>
+<p begin="00:07:34.360" end="00:07:35.840" region="R4" style="S2" xml:id="C151">
+<span style="S4">Tell her it's not worth it.</span>
+</p>
+<p begin="00:07:36.880" end="00:07:40.480" region="agr_0_20_38.5_4_after" style="S2" xml:id="C152_1">
+<span style="S4">There are easier ways of making</span>
+<br/>
+<span style="S4">money than pushing a human</span>
+</p>
+<p begin="00:07:40.480" end="00:07:41.520" region="R4" style="S2" xml:id="C153">
+<span style="S4">out of your...</span>
+</p>
+<p begin="00:07:43" end="00:07:45.680" region="R4" style="S6" ttm:role="sound" xml:id="C154">
+<span style="S3">THEY LAUGH</span>
+</p>
+<p begin="00:07:49.920" end="00:07:52.720" region="R4" style="S2" xml:id="C155">
+<span style="S4">You know I'm still furious.</span>
+</p>
+<p begin="00:07:52.720" end="00:07:55.360" region="R4" style="S2" xml:id="C156">
+<span style="S4">Why would they take down that blog?</span>
+</p>
+<p begin="00:07:55.360" end="00:07:57.120" region="R4" style="S2" xml:id="C157">
+<span style="S4">Who censors love anyway?</span>
+</p>
+<p begin="00:07:57.120" end="00:07:58.240" region="R4" style="S2" xml:id="C158">
+<span style="S3">Beats me.</span>
+</p>
+<p begin="00:07:58.240" end="00:08:00.240" region="R9" ttm:role="music" xml:id="C159">
+<span style="S3">MUSIC: Mamma Mia!</span>
+<br/>
+<span style="S3">By ABBA</span>
+</p>
+<p begin="00:08:00.240" end="00:08:01.640" region="R4" style="S2" xml:id="C160">
+<span style="S4">You're my poster girls.</span>
+</p>
+<p begin="00:08:01.640" end="00:08:04.160" region="agr_0_20_39_4_after" style="S2" xml:id="C161_1">
+<span style="S4">That picture of you two</span>
+<br/>
+<span style="S4">would make any straight woman</span>
+</p>
+<p begin="00:08:04.160" end="00:08:06.480" region="agr_0_20_39_4_after" style="S2" xml:id="C162_1">
+<span style="S4">want a fancy little dip</span>
+<br/>
+<span style="S4">in the gay bay.</span>
+</p>
+<p begin="00:08:07.560" end="00:08:09.920" region="agr_0_20_38.5_4_after" style="S2" xml:id="C163_1">
+<span style="S4">I mean, I'd make a</span>
+<br/>
+<span style="S4">great lesbian myself.</span>
+</p>
+<p begin="00:08:09.920" end="00:08:12.120" region="R4" style="S2" xml:id="C164">
+<span style="S3">Look, I need to restock so...</span>
+</p>
+<p begin="00:08:12.120" end="00:08:13.920" region="R4" style="S2" xml:id="C165">
+<span style="S4">Oh, no, no, no...</span>
+</p>
+<p begin="00:08:13.920" end="00:08:17.680" region="R9" style="S2" xml:id="C166">
+<span style="S4">You ain't going anywhere without</span>
+<br/>
+<span style="S4">giving me the latest hot gossip</span>
+</p>
+<p begin="00:08:17.680" end="00:08:21.560" region="agr_0_20_39.5_4_after" style="S2" xml:id="C167_1">
+<span style="S4">about you two, yeah? I want to</span>
+<br/>
+<span style="S4">hear the fruits of my labour,</span>
+</p>
+<p begin="00:08:21.560" end="00:08:23.320" region="R4" style="S2" xml:id="C168">
+<span style="S4">direct like debit.</span>
+</p>
+<p begin="00:08:23.320" end="00:08:27.960" region="R9" style="S2" xml:id="C169">
+<span style="S4">So come on, I was thinking that</span>
+<br/>
+<span style="S4">maybe we could do our own blog.</span>
+</p>
+<p begin="00:08:27.960" end="00:08:30.880" region="agr_0_20_38.5_4_after" style="S2" xml:id="C170_1">
+<span style="S4">You know, obviously,</span>
+<br/>
+<span style="S4">I'll cut and paste the PG bits.</span>
+</p>
+<p begin="00:08:30.880" end="00:08:33.760" region="agr_4_20_36_4_after" style="S2" xml:id="C171_1">
+<span style="S4">And keep the R-rated stuff</span>
+<br/>
+<span style="S4">for ourselves, you know what I mean?</span>
+</p>
+<p begin="00:08:33.760" end="00:08:35.800" region="R4" style="S6" ttm:role="sound" xml:id="C172">
+<span style="S3">KIM LAUGHS</span>
+</p>
+<p begin="00:08:39.560" end="00:08:41.120" region="R4" style="S2" xml:id="C173">
+<span style="S4">Oh...</span>
+</p>
+<p begin="00:08:41.120" end="00:08:43.520" region="R4" style="S2" xml:id="C174">
+<span style="S4">The deal hasn't been sealed, no?</span>
+</p>
+<p begin="00:08:43.520" end="00:08:44.960" region="R4" style="S2" xml:id="C175">
+<span style="S4">OK, well that's OK.</span>
+</p>
+<p begin="00:08:44.960" end="00:08:47.520" region="agr_0_20_38.5_4_after" style="S2" xml:id="C176_1">
+<span style="S4">That's OK, that's fine,</span>
+<br/>
+<span style="S4">that's fine...</span>
+</p>
+<p begin="00:08:47.520" end="00:08:49.840" region="R4" style="S2" xml:id="C177">
+<span style="S4">I will...</span>
+</p>
+<p begin="00:08:49.840" end="00:08:53.760" region="agr_0_20_39_4_after" style="S2" xml:id="C178_1">
+<span style="S4">..organise a romantic</span>
+<br/>
+<span style="S4">dinner for you two tonight.</span>
+</p>
+<p begin="00:08:53.760" end="00:08:57.680" region="R9" style="S2" xml:id="C179">
+<span style="S4">Yes, that's what we should do, and</span>
+<br/>
+<span style="S4">we can get Iqra's engine revving.</span>
+</p>
+<p begin="00:08:57.680" end="00:08:59.680" region="R4" style="S6" ttm:role="sound" xml:id="C180">
+<span style="S3">KIM PURRS, GIGGLES</span>
+</p>
+<p begin="00:08:59.680" end="00:09:02.480" region="R9" style="S2" xml:id="C181">
+<span style="S4">You see, I can't have my poster</span>
+<br/>
+<span style="S4">girls fizzling out now, can I?</span>
+</p>
+<p begin="00:09:02.480" end="00:09:03.960" region="R4" style="S2" xml:id="C182">
+<span style="S4">Be bad for business.</span>
+</p>
+<p begin="00:09:03.960" end="00:09:07.920" region="R9" style="S2" xml:id="C183_1">
+<span style="S4">And if there is one thing that</span>
+<br/>
+<span style="S4">I know - it is how to close.</span>
+</p>
+<p begin="00:09:09.800" end="00:09:12.720" region="agr_0_20_39_4_after" style="S2" xml:id="C184_1">
+<span style="S3">Look, I'm working</span>
+<br/>
+<span style="S3">a double tonight, so...</span>
+</p>
+<p begin="00:09:16.920" end="00:09:19.400" region="R4" style="S2" xml:id="C185">
+<span style="S3">And poster girls or not -</span>
+</p>
+<p begin="00:09:19.400" end="00:09:21.640" region="R4" style="S2" xml:id="C186">
+<span style="S3">we're taking things slow, OK?</span>
+</p>
+<p begin="00:09:24.360" end="00:09:25.920" region="R4" style="S6" ttm:role="sound" xml:id="C187">
+<span style="S3">SHE MUMBLES</span>
+</p>
+<p begin="00:09:27.120" end="00:09:30.360" region="agr_0_20_39_4_after" style="S2" xml:id="C188_1">
+<span style="S4">Here, Kathy, you're working</span>
+<br/>
+<span style="S4">her too hard, you know.</span>
+</p>
+<p begin="00:09:30.360" end="00:09:31.720" region="R4" style="S2" xml:id="C189">
+<span style="S3">You what?</span>
+</p>
+<p begin="00:09:31.720" end="00:09:33.280" region="R4" style="S2" xml:id="C190">
+<span style="S4">Double shift on a Monday?</span>
+</p>
+<p begin="00:09:33.280" end="00:09:36.520" region="R9" style="S2" xml:id="C191">
+<span style="S4">I mean, how is she supposed to rock</span>
+<br/>
+<span style="S4">Iqra's boat when she's on dry land?</span>
+</p>
+<p begin="00:09:36.520" end="00:09:39.040" region="R4" style="S2" xml:id="C192">
+<span style="S3">Mila's not working tonight, Kim,</span>
+</p>
+<p begin="00:09:39.040" end="00:09:43.600" region="agr_4_20_36_4_after" style="S2" xml:id="C193_1">
+<span style="S3">so she can grab her armbands and</span>
+<br/>
+<span style="S3">rock Iqra's boat when she likes, OK?</span>
+</p>
+<p begin="00:09:44.600" end="00:09:45.640" region="R4" style="S2" xml:id="C194">
+<span style="S3">Happy now?</span>
+</p>
+<p begin="00:09:48.520" end="00:09:53" region="agr_0_20_38.5_4_after" style="S2" xml:id="C195_1">
+<span style="S5">20p off your beans for a dent</span>
+<br/>
+<span style="S5">or two ain't bad, is it?</span>
+</p>
+<p begin="00:09:53" end="00:09:54.840" region="R4" style="S2" xml:id="C196">
+<span style="S5">Especially when I dropped the tin.</span>
+</p>
+<p begin="00:09:54.840" end="00:09:56.600" region="R4" style="S2" xml:id="C197">
+<span style="S7">Yeah!</span>
+</p>
+<p begin="00:09:56.600" end="00:09:59.640" region="agr_0_20_39.5_4_after" style="S2" xml:id="C198_1">
+<span style="S5">Oh, well at least</span>
+<br/>
+<span style="S5">you'll eat well tonight, eh?</span>
+</p>
+<p begin="00:10:02.200" end="00:10:03.720" region="R4" style="S2" xml:id="C199">
+<span style="S5">You all right?</span>
+</p>
+<p begin="00:10:03.720" end="00:10:05.120" region="R4" style="S2" xml:id="C200">
+<span style="S4">Yeah, not bad.</span>
+</p>
+<p begin="00:10:05.120" end="00:10:06.560" region="R4" style="S2" xml:id="C201">
+<span style="S4">You?</span>
+</p>
+<p begin="00:10:06.560" end="00:10:10.280" region="R9" style="S2" xml:id="C202">
+<span style="S5">Yeah... The world never seems as</span>
+<br/>
+<span style="S5">bad when you're pushing a pram.</span>
+</p>
+<p begin="00:10:10.280" end="00:10:13.800" region="agr_1.5_20_38.5_4_after" style="S2" xml:id="C203_1">
+<span style="S5">They grow out of 'em,</span>
+<br/>
+<span style="S5">but they'll always be your babies.</span>
+</p>
+<p begin="00:10:19.080" end="00:10:20.920" region="R4" style="S2" xml:id="C204">
+<span style="S3">I'd give you one.</span>
+</p>
+<p begin="00:10:22.160" end="00:10:24.840" region="R4" style="S2" xml:id="C205">
+<span style="S3">A job, I mean, obviously...</span>
+</p>
+<p begin="00:10:24.840" end="00:10:27.760" region="R4" style="S2" xml:id="C206">
+<span style="S3">Oh, cheer up.</span>
+</p>
+<p begin="00:10:27.760" end="00:10:30.480" region="agr_1_20_39_4_after" style="S2" xml:id="C207_1">
+<span style="S3">You could be unemployed and not</span>
+<br/>
+<span style="S3">have a fit bloke chatting you up.</span>
+</p>
+<p begin="00:10:30.480" end="00:10:32" region="R4" style="S2" xml:id="C208">
+<span style="S5">Right, listen pal,</span>
+</p>
+<p begin="00:10:32" end="00:10:35.760" region="agr_0_20_38.5_4_after" style="S2" xml:id="C209_1">
+<span style="S5">I've got an exhilarating family</span>
+<br/>
+<span style="S5">picnic to get razzed up for,</span>
+</p>
+<p begin="00:10:35.760" end="00:10:37.440" region="R4" style="S2" xml:id="C210">
+<span style="S5">so, if you don't mind...</span>
+</p>
+<p begin="00:10:37.440" end="00:10:38.960" region="R4" style="S2" xml:id="C211">
+<span style="S3">Could be worse.</span>
+</p>
+<p begin="00:10:38.960" end="00:10:41.600" region="R9" style="S2" xml:id="C212_1">
+<span style="S3">If my family had a picnic,</span>
+<br/>
+<span style="S3">we'd have to have plastic knives</span>
+</p>
+<p begin="00:10:41.600" end="00:10:42.880" region="R4" style="S2" xml:id="C213">
+<span style="S3">and a bouncer, just in case.</span>
+</p>
+<p begin="00:10:43.880" end="00:10:45.320" region="R4" style="S2" xml:id="C214">
+<span style="S3">You might not think it,</span>
+</p>
+<p begin="00:10:45.320" end="00:10:47.880" region="R9" style="S2" xml:id="C215_1">
+<span style="S3">but I'm considered to be</span>
+<br/>
+<span style="S3">the nice one in my family.</span>
+</p>
+<p begin="00:10:47.880" end="00:10:49.840" region="R4" style="S6" ttm:role="sound" xml:id="C216">
+<span style="S3">COINS CLINK, CASH REGISTER CLOSES</span>
+</p>
+<p begin="00:10:49.840" end="00:10:51.280" region="R4" style="S2" xml:id="C217">
+<span style="S3">I'll talk to my sister.</span>
+</p>
+<p begin="00:10:52.360" end="00:10:54.760" region="agr_0_20_39.5_4_after" style="S2" xml:id="C218_1">
+<span style="S3">She'd be mad not to</span>
+<br/>
+<span style="S3">take you on, I reckon.</span>
+</p>
+<p begin="00:10:54.760" end="00:10:56.960" region="agr_0_20_39.5_4_after" style="S2" xml:id="C219_1">
+<span style="S3">Leave it with me, blondie.</span>
+<br/>
+<span style="S3">I'll be in touch.</span>
+</p>
+<p begin="00:10:59.440" end="00:11:01.200" region="R4" style="S2" xml:id="C220">
+<span style="S4">Well done, got here on time.</span>
+</p>
+<p begin="00:11:01.200" end="00:11:02.240" region="R4" style="S2" xml:id="C221">
+<span style="S4">In you go.</span>
+</p>
+<p begin="00:11:04.680" end="00:11:07.480" region="R4" style="S2" xml:id="C222">
+<span style="S3">Janet, hey, go on.</span>
+</p>
+<p begin="00:11:07.480" end="00:11:09" region="R4" style="S2" xml:id="C223">
+<span style="S3">Go and have fun, yeah?</span>
+</p>
+<p begin="00:11:14.680" end="00:11:17.840" region="agr_0_20_39.5_4_after" style="S2" xml:id="C224_1">
+<span style="S4">She's gorgeous, isn't</span>
+<br/>
+<span style="S4">she? Yeah. Are you...?</span>
+</p>
+<p begin="00:11:17.840" end="00:11:20.720" region="R9" style="S2" xml:id="C225_1">
+<span style="S3">Yeah, she's my daughter.</span>
+<br/>
+<span style="S3">I'm her dad.</span>
+</p>
+<p begin="00:11:20.720" end="00:11:23.080" region="agr_0_20_39_4_after" style="S2" xml:id="C226_1">
+<span style="S3">It's her first proper</span>
+<br/>
+<span style="S3">shoot you know,</span>
+</p>
+<p begin="00:11:23.080" end="00:11:25.360" region="R9" style="S2" xml:id="C227_1">
+<span style="S3">so I thought I better come down,</span>
+<br/>
+<span style="S3">suss it all out.</span>
+</p>
+<p begin="00:11:25.360" end="00:11:27" region="R4" style="S2" xml:id="C228">
+<span style="S4">I see.</span>
+</p>
+<p begin="00:11:27" end="00:11:28.560" region="R4" style="S2" xml:id="C229">
+<span style="S4">What do you make of it so far, then?</span>
+</p>
+<p begin="00:11:28.560" end="00:11:30.160" region="R4" style="S2" xml:id="C230">
+<span style="S3">I don't know.</span>
+</p>
+<p begin="00:11:30.160" end="00:11:32.160" region="R4" style="S2" xml:id="C231">
+<span style="S3">It's a bit creepy, ain't it?</span>
+</p>
+<p begin="00:11:32.160" end="00:11:34.400" region="R4" style="S2" xml:id="C232">
+<span style="S3">Little girls with make-up on and...</span>
+</p>
+<p begin="00:11:34.400" end="00:11:36.160" region="R4" style="S2" xml:id="C233">
+<span style="S3">..all dolled up.</span>
+</p>
+<p begin="00:11:36.160" end="00:11:38" region="agr_0_20_38.5_4_after" style="S2" xml:id="C234_1">
+<span style="S3">They should have a</span>
+<br/>
+<span style="S3">bouncer on that door.</span>
+</p>
+<p begin="00:11:38" end="00:11:40.920" region="agr_0_20_38.5_4_after" style="S2" xml:id="C235_1">
+<span style="S3">I mean, any old weirdo could</span>
+<br/>
+<span style="S3">walk in there, couldn't they?</span>
+</p>
+<p begin="00:11:40.920" end="00:11:43.480" region="agr_0_20_39_4_after" style="S2" xml:id="C236_1">
+<span style="S3">But they're probably too busy</span>
+<br/>
+<span style="S3">counting their money to worry</span>
+</p>
+<p begin="00:11:43.480" end="00:11:45.320" region="R4" style="S2" xml:id="C237">
+<span style="S3">about that, ain't they?</span>
+</p>
+<p begin="00:11:45.320" end="00:11:47.320" region="R4" style="S2" xml:id="C238">
+<span style="S3">So, which is your little 'un?</span>
+</p>
+<p begin="00:11:48.360" end="00:11:52.640" region="agr_0_20_39_4_after" style="S2" xml:id="C239_1">
+<span style="S4">Well, they're all</span>
+<br/>
+<span style="S4">my little 'uns, actually.</span>
+</p>
+<p begin="00:11:52.640" end="00:11:55.120" region="R9" style="S2" xml:id="C240_1">
+<span style="S4">I'm Estelle Jones.</span>
+<br/>
+<span style="S4">Janet's agent.</span>
+</p>
+<p begin="00:11:55.120" end="00:11:58.480" region="agr_0_20_38.5_4_after" style="S2" xml:id="C241_1">
+<span style="S3">No! I'm so sorry</span>
+<br/>
+<span style="S3">I thought you were...</span>
+</p>
+<p begin="00:11:58.480" end="00:12:01.920" region="agr_4_20_36_4_after" style="S2" xml:id="C242_1">
+<span style="S4">Young enough to have a "little 'un"?</span>
+<br/>
+<span style="S4">Hah! Yeah... I'll take that.</span>
+</p>
+<p begin="00:12:04.200" end="00:12:05.320" region="R4" style="S2" xml:id="C243">
+<span style="S4">Actually...</span>
+</p>
+<p begin="00:12:06.600" end="00:12:10.520" region="agr_0_20_39.5_4_after" style="S2" xml:id="C244_1">
+<span style="S4">You don't fancy a</span>
+<br/>
+<span style="S4">quick drink, do you?</span>
+<span style="S3"> Eh?</span>
+</p>
+<p begin="00:12:10.520" end="00:12:15.160" region="agr_0_20_39.5_4_after" style="S2" xml:id="C245_1">
+<span style="S4">Well, greater inclusivity is a</span>
+<br/>
+<span style="S4">real target for our agency,</span>
+</p>
+<p begin="00:12:15.160" end="00:12:18.520" region="R9" style="S2" xml:id="C246_1">
+<span style="S4">so... You know, I'd love</span>
+<br/>
+<span style="S4">to pick your brains.</span>
+</p>
+<p begin="00:12:18.520" end="00:12:20.600" region="R4" style="S2" xml:id="C247">
+<span style="S3">I, uh...</span>
+</p>
+<p begin="00:12:20.600" end="00:12:23.040" region="agr_0_20_39.5_4_after" style="S2" xml:id="C248_1">
+<span style="S3">I don't know, I don't really</span>
+<br/>
+<span style="S3">want to leave her, see?</span>
+</p>
+<p begin="00:12:23.040" end="00:12:24.440" region="R4" style="S2" xml:id="C249">
+<span style="S4">Oh, she'll be fine.</span>
+</p>
+<p begin="00:12:24.440" end="00:12:27.280" region="agr_0_20_38.5_4_after" style="S2" xml:id="C250_1">
+<span style="S4">There's no bouncers,</span>
+<br/>
+<span style="S4">but we have chaperones.</span>
+</p>
+<p begin="00:12:27.280" end="00:12:29.840" region="R9" style="S2" xml:id="C251_1">
+<span style="S4">She's in very good</span>
+<br/>
+<span style="S4">hands here, I promise.</span>
+</p>
+<p begin="00:12:31.520" end="00:12:33.760" region="R9" style="S2" xml:id="C252_1">
+<span style="S3">I s'pose a quick drink</span>
+<br/>
+<span style="S3">wouldn't hurt, would it?</span>
+</p>
+<p begin="00:12:35.520" end="00:12:38.600" region="agr_0_20_39.5_4_after" style="S2" xml:id="C253_1">
+<span style="S7">All right, ready?</span>
+<br/>
+<span style="S7">Trap it, go on! That's it.</span>
+</p>
+<p begin="00:12:38.600" end="00:12:41.400" region="agr_0_20_39_4_after" style="S2" xml:id="C254_1">
+<span style="S7">You sure you told her the right</span>
+<br/>
+<span style="S7">time?</span>
+<span style="S4"> Oh, course I did!</span>
+</p>
+<p begin="00:12:42.560" end="00:12:46" region="agr_1.5_20_38.5_4_after" style="S2" xml:id="C255_1">
+<span style="S4">Oi, not yet!</span>
+<span style="S5"> I thought this was</span>
+<br/>
+<span style="S5">supposed to be my birthday picnic?</span>
+</p>
+<p begin="00:12:46" end="00:12:48.680" region="agr_0_20_39_4_after" style="S2" xml:id="C256_1">
+<span style="S4">It is!</span>
+<span style="S5"> Well, then, let me</span>
+<br/>
+<span style="S5">have a cheese sandwich.</span>
+</p>
+<p begin="00:12:48.680" end="00:12:51.480" region="R9" style="S2" xml:id="C257_1">
+<span style="S5">I'm wasting away sitting here.</span>
+<br/>
+<span style="S7">You do know it's a joint picnic,</span>
+</p>
+<p begin="00:12:51.480" end="00:12:53.800" region="agr_0_20_39_4_after" style="S2" xml:id="C258_1">
+<span style="S7">don't you?</span>
+<span style="S5"> What you talking</span>
+<br/>
+<span style="S5">about "joint picnic"?</span>
+</p>
+<p begin="00:12:53.800" end="00:12:55.400" region="R4" style="S2" xml:id="C259">
+<span style="S4">For you and Nancy.</span>
+</p>
+<p begin="00:12:55.400" end="00:12:58.800" region="agr_3.5_20_36.5_4_after" style="S2" xml:id="C260_1">
+<span style="S4">So we're waiting for her, all right?</span>
+<br/>
+<span style="S4">She'll be back down under soon.</span>
+</p>
+<p begin="00:12:58.800" end="00:13:01.480" region="R9" style="S2" xml:id="C261">
+<span style="S5">Yeah, I'll be six feet under soon</span>
+<br/>
+<span style="S5">if I don't have something to eat.</span>
+</p>
+<p begin="00:13:01.480" end="00:13:03.200" region="R4" style="S2" xml:id="C262">
+<span style="S5">We all know she ain't coming.</span>
+</p>
+<p begin="00:13:03.200" end="00:13:04.440" region="R4" style="S2" xml:id="C263">
+<span style="S3">Hey, Nancy.</span>
+</p>
+<p begin="00:13:05.680" end="00:13:07.240" region="R4" style="S2" xml:id="C264">
+<span style="S7">Sorry, I had to sort something.</span>
+</p>
+<p begin="00:13:07.240" end="00:13:08.600" region="R4" style="S2" xml:id="C265">
+<span style="S5">Finally!</span>
+</p>
+<p begin="00:13:08.600" end="00:13:11.760" region="agr_2_20_38_4_after" style="S2" xml:id="C266_1">
+<span style="S4">Well, it's better late than never.</span>
+<br/>
+<span style="S4">Come on, everyone! Dig in!</span>
+</p>
+<p begin="00:13:11.760" end="00:13:13.440" region="R4" style="S2" xml:id="C267">
+<span style="S7">Everything all right?</span>
+</p>
+<p begin="00:13:13.440" end="00:13:15.840" region="agr_0_20_39.5_4_after" style="S2" xml:id="C268_1">
+<span style="S5">It's fine... Sorry,</span>
+<br/>
+<span style="S5">I can't stay for long, though.</span>
+</p>
+<p begin="00:13:15.840" end="00:13:19" region="R4" style="S2" xml:id="C269">
+<span style="S4">Oh, you meeting someone special?</span>
+</p>
+<p begin="00:13:19" end="00:13:20.040" region="R4" style="S2" xml:id="C270">
+<span style="S5">No.</span>
+</p>
+<p begin="00:13:21.280" end="00:13:22.560" region="R4" style="S2" xml:id="C271">
+<span style="S5">Come on, Ollie, give us a kick!</span>
+</p>
+<p begin="00:13:23.640" end="00:13:24.800" region="R4" style="S2" xml:id="C272">
+<span style="S7">I hate bagels.</span>
+</p>
+<p begin="00:13:26" end="00:13:27.920" region="R4" style="S2" xml:id="C273">
+<span style="S4">Told you, didn't I?</span>
+</p>
+<p begin="00:13:27.920" end="00:13:29.160" region="R4" style="S2" xml:id="C274">
+<span style="S4">I know my girl.</span>
+</p>
+<p begin="00:13:30.600" end="00:13:36.320" region="agr_0_20_38.5_4_after" style="S2" xml:id="C275_1">
+<span style="S5">Voila! Gourmet beans on</span>
+<br/>
+<span style="S5">toast "a la Taylor".</span>
+</p>
+<p begin="00:13:36.320" end="00:13:39.640" region="agr_0_20_38.5_4_after" style="S2" xml:id="C276_1">
+<span style="S5">That is what you call a new</span>
+<br/>
+<span style="S5">twist on an old classic.</span>
+</p>
+<p begin="00:13:39.640" end="00:13:42.360" region="agr_0_20_39.5_4_after" style="S2" xml:id="C277_1">
+<span style="S5">A drop of hot sauce,</span>
+<br/>
+<span style="S5">a dash of pepper.</span>
+</p>
+<p begin="00:13:42.360" end="00:13:46.560" region="agr_0_20_39.5_4_after" style="S2" xml:id="C278_1">
+<span style="S5">Yeah, you go in one of them</span>
+<br/>
+<span style="S5">poncey gastropubs in Shoreditch,</span>
+</p>
+<p begin="00:13:46.560" end="00:13:48.200" region="R4" style="S2" xml:id="C279">
+<span style="S5">you're paying a score for that.</span>
+</p>
+<p begin="00:13:48.200" end="00:13:51.640" region="agr_0_20_39_2_after" style="S2" ttm:role="sound" xml:id="C280_1">
+<span style="S5">But here? You eat for free.</span>
+</p>
+<p begin="00:13:48.200" end="00:13:51.640" region="agr_0_22_20_2_after" style="S2" ttm:role="sound" xml:id="C280_2">
+<span style="S3">SHE CHUCKLES</span>
+</p>
+<p begin="00:13:51.640" end="00:13:53.040" region="R4" style="S2" xml:id="C281">
+<span style="S3">You all right?</span>
+</p>
+<p begin="00:13:53.040" end="00:13:55.960" region="agr_0_20_38.5_4_after" style="S2" xml:id="C282_1">
+<span style="S5">Ain't you was seeing lover-girl</span>
+<br/>
+<span style="S5">tonight?</span>
+<span style="S3"> Got a headache.</span>
+</p>
+<p begin="00:13:57.040" end="00:13:59.080" region="R4" style="S2" xml:id="C283">
+<span style="S5">Here... Take that and sit down.</span>
+</p>
+<p begin="00:14:01.280" end="00:14:03.600" region="agr_0_20_39_4_after" style="S2" xml:id="C284_1">
+<span style="S3">No, it's all right,</span>
+<br/>
+<span style="S3">I ain't hungry...</span>
+</p>
+<p begin="00:14:03.600" end="00:14:07.320" region="R9" style="S2" xml:id="C285">
+<span style="S5">I've just had a big lunch so, if I</span>
+<br/>
+<span style="S5">can't watch my figure, who can, eh?</span>
+</p>
+<p begin="00:14:07.320" end="00:14:09.880" region="R4" style="S2" xml:id="C286">
+<span style="S5">Go on, sit down, eat your dinner.</span>
+</p>
+<p begin="00:14:09.880" end="00:14:11.080" region="R4" style="S2" xml:id="C287">
+<span style="S5">No arguments.</span>
+</p>
+<p begin="00:14:11.080" end="00:14:12.400" region="R4" style="S2" xml:id="C288">
+<span style="S3">Cheers, Mum.</span>
+</p>
+<p begin="00:14:12.400" end="00:14:13.840" region="R4" style="S2" xml:id="C289">
+<span style="S5">Shut up, you wally.</span>
+</p>
+<p begin="00:14:17.600" end="00:14:20.040" region="agr_0_20_38.5_4_after" style="S2" xml:id="C290_1">
+<span style="S4">We're in trouble aren't we?</span>
+<br/>
+<span style="S4">Money trouble.</span>
+</p>
+<p begin="00:14:22.120" end="00:14:24.080" region="R4" style="S2" xml:id="C291">
+<span style="S5">What?</span>
+<span style="S4"> I could help, if you like.</span>
+</p>
+<p begin="00:14:24.080" end="00:14:26" region="agr_0_20_38.5_4_after" style="S2" xml:id="C292_1">
+<span style="S4">I could get a part time job</span>
+<br/>
+<span style="S4">after school or...</span>
+</p>
+<p begin="00:14:26" end="00:14:27.560" region="R4" style="S2" xml:id="C293">
+<span style="S5">We're fine, Bailey.</span>
+</p>
+<p begin="00:14:27.560" end="00:14:29.640" region="R9" style="S2" xml:id="C294_1">
+<span style="S5">Yeah, are we flush</span>
+<br/>
+<span style="S5">at the moment? No.</span>
+</p>
+<p begin="00:14:29.640" end="00:14:32.520" region="agr_3_20_37_4_after" style="S2" xml:id="C295_1">
+<span style="S5">But we're happy and we're healthy</span>
+<br/>
+<span style="S5">and we've been through a lot worse,</span>
+</p>
+<p begin="00:14:32.520" end="00:14:34.920" region="R9" style="S2" xml:id="C296_1">
+<span style="S5">so you just eat your</span>
+<br/>
+<span style="S5">dinner, all right?</span>
+</p>
+<p begin="00:14:34.920" end="00:14:37.760" region="R4" style="S2" xml:id="C297">
+<span style="S5">Stop worrying, OK? Right, Bernie?</span>
+</p>
+<p begin="00:14:39.760" end="00:14:42.120" region="agr_0_20_39_4_after" style="S2" xml:id="C298_1">
+<span style="S5">Right, I'm going to</span>
+<br/>
+<span style="S5">get these sorted.</span>
+</p>
+<p begin="00:14:42.120" end="00:14:46.520" region="R9" style="S2" xml:id="C299">
+<span style="S5">You're a winner, and I want you</span>
+<br/>
+<span style="S5">to look like a winner tomorrow.</span>
+</p>
+<p begin="00:14:46.520" end="00:14:49.080" region="R4" style="S6" ttm:role="sound" xml:id="C300">
+<span style="S3">PHONE RINGS</span>
+</p>
+<p begin="00:14:59.680" end="00:15:00.840" region="R4" style="S2" xml:id="C301">
+<span style="S3">She's right, you know.</span>
+</p>
+<p begin="00:15:02.200" end="00:15:03.440" region="R4" style="S2" xml:id="C302">
+<span style="S3">You don't have to worry.</span>
+</p>
+<p begin="00:15:04.840" end="00:15:07.160" region="R4" style="S2" xml:id="C303">
+<span style="S3">We'll be fine.</span>
+</p>
+<p begin="00:15:07.160" end="00:15:09.120" region="R4" style="S2" xml:id="C304">
+<span style="S4">I just think it's amazing.</span>
+</p>
+<p begin="00:15:09.120" end="00:15:12.640" region="R9" style="S2" xml:id="C305_1">
+<span style="S4">A salt-of-the-Earth,</span>
+<br/>
+<span style="S4">working-class man like yourself,</span>
+</p>
+<p begin="00:15:12.640" end="00:15:16.840" region="agr_3.5_20_36.5_4_after" style="S2" xml:id="C306_1">
+<span style="S4">being so supportive of your</span>
+<br/>
+<span style="S4">daughter, despite your reservations.</span>
+</p>
+<p begin="00:15:16.840" end="00:15:18.880" region="R4" style="S2" xml:id="C307">
+<span style="S4">Kudos.</span>
+</p>
+<p begin="00:15:18.880" end="00:15:21" region="agr_0_20_38.5_4_after" style="S2" xml:id="C308_1">
+<span style="S3">I just want what's</span>
+<br/>
+<span style="S3">best for her, you know?</span>
+</p>
+<p begin="00:15:22" end="00:15:24" region="R4" style="S2" xml:id="C309">
+<span style="S3">She's special.</span>
+<span style="S4"> She is.</span>
+</p>
+<p begin="00:15:24" end="00:15:25.920" region="R4" style="S2" xml:id="C310">
+<span style="S4">And that's credit to you.</span>
+</p>
+<p begin="00:15:25.920" end="00:15:28.360" region="R4" style="S2" xml:id="C311">
+<span style="S4">And your wife, I presume?</span>
+</p>
+<p begin="00:15:28.360" end="00:15:29.480" region="R4" style="S2" xml:id="C312">
+<span style="S3">We're, uh...</span>
+</p>
+<p begin="00:15:29.480" end="00:15:31.480" region="R4" style="S2" xml:id="C313">
+<span style="S3">..separated actually.</span>
+<span style="S4"> I see.</span>
+</p>
+<p begin="00:15:31.480" end="00:15:33.320" region="R4" style="S2" xml:id="C314">
+<span style="S4">Sorry to hear that.</span>
+</p>
+<p begin="00:15:33.320" end="00:15:36.240" region="R4" style="S2" xml:id="C315">
+<span style="S5">Billy?! What's going on?</span>
+</p>
+<p begin="00:15:36.240" end="00:15:37.680" region="R4" style="S2" xml:id="C316">
+<span style="S3">Oh, hon, um...</span>
+</p>
+<p begin="00:15:37.680" end="00:15:39.680" region="agr_0_20_39_4_after" style="S2" xml:id="C317_1">
+<span style="S3">Hon, this is...</span>
+<br/>
+<span style="S5">I've been trying to call you.</span>
+</p>
+<p begin="00:15:39.680" end="00:15:42.280" region="agr_2_20_38_4_after" style="S2" xml:id="C318_1">
+<span style="S5">I wanted to know how Janet got on.</span>
+<br/>
+<span style="S5">I mean, why aren't you with her?</span>
+</p>
+<p begin="00:15:42.280" end="00:15:45.800" region="R9" style="S2" xml:id="C319_1">
+<span style="S4">Mrs Mitchell, is it?</span>
+<br/>
+<span style="S4">I'm Estelle Jones.</span>
+</p>
+<p begin="00:15:45.800" end="00:15:47.520" region="R4" style="S2" xml:id="C320">
+<span style="S4">Deeks Talent Agency.</span>
+</p>
+<p begin="00:15:47.520" end="00:15:49.040" region="R4" style="S2" xml:id="C321">
+<span style="S5">Oh...!</span>
+</p>
+<p begin="00:15:49.040" end="00:15:50.400" region="R4" style="S2" xml:id="C322">
+<span style="S5">Is Janet all right?</span>
+</p>
+<p begin="00:15:50.400" end="00:15:51.880" region="R4" style="S2" xml:id="C323">
+<span style="S4">Oh, she's fine.</span>
+</p>
+<p begin="00:15:51.880" end="00:15:54.760" region="agr_0_20_39_4_after" style="S2" xml:id="C324_1">
+<span style="S4">I'm just taking the liberty</span>
+<br/>
+<span style="S4">of picking her dad's brains</span>
+</p>
+<p begin="00:15:54.760" end="00:15:56.480" region="R4" style="S2" xml:id="C325">
+<span style="S4">while Janet's being chaperoned.</span>
+</p>
+<p begin="00:15:56.480" end="00:15:58.600" region="R4" style="S2" xml:id="C326">
+<span style="S4">I hope that's OK.</span>
+</p>
+<p begin="00:15:58.600" end="00:16:00.160" region="R4" style="S2" xml:id="C327">
+<span style="S5">Yeah.</span>
+</p>
+<p begin="00:16:00.160" end="00:16:01.280" region="R4" style="S2" xml:id="C328">
+<span style="S5">That's fine...</span>
+</p>
+<p begin="00:16:02.760" end="00:16:04.040" region="R4" style="S2" xml:id="C329">
+<span style="S5">I'll just...</span>
+</p>
+<p begin="00:16:04.040" end="00:16:05.280" region="R4" style="S2" xml:id="C330">
+<span style="S5">..leave you to it, then.</span>
+</p>
+<p begin="00:16:06.840" end="00:16:08" region="R4" style="S2" xml:id="C331">
+<span style="S5">Nice to meet you.</span>
+</p>
+<p begin="00:16:10.120" end="00:16:12.120" region="R4" style="S2" xml:id="C332">
+<span style="S4">She seems nice.</span>
+<span style="S3"> Mm-hm.</span>
+</p>
+<p begin="00:16:13.360" end="00:16:15.600" region="R4" style="S2" xml:id="C333">
+<span style="S4">Shall I top us up?</span>
+</p>
+<p begin="00:16:15.600" end="00:16:17.040" region="R4" style="S2" xml:id="C334">
+<span style="S3">Why not?</span>
+</p>
+<p begin="00:16:19.760" end="00:16:21.120" region="R4" style="S2" xml:id="C335">
+<span style="S3">Ah!</span>
+</p>
+<p begin="00:16:30.520" end="00:16:33.040" region="agr_0_20_38.5_4_after" style="S2" xml:id="C336_1">
+<span style="S5">Are you going to tell me</span>
+<br/>
+<span style="S5">what you're looking at yet?</span>
+</p>
+<p begin="00:16:33.040" end="00:16:34.880" region="R4" style="S2" xml:id="C337">
+<span style="S4">Confidential Fox Catcher business.</span>
+</p>
+<p begin="00:16:34.880" end="00:16:37.640" region="agr_0_20_39.5_4_after" style="S2" xml:id="C338_1">
+<span style="S4">Only on a need-to-know basis.</span>
+<br/>
+<span style="S5">Well, can you hide in the bush</span>
+</p>
+<p begin="00:16:37.640" end="00:16:39.960" region="R9" style="S2" xml:id="C339_1">
+<span style="S5">or something? Because you're</span>
+<br/>
+<span style="S5">scaring Mum's customers.</span>
+</p>
+<p begin="00:16:39.960" end="00:16:42.400" region="agr_0_20_39.5_4_after" style="S2" xml:id="C340_1">
+<span style="S4">You're so rude!</span>
+<span style="S5"> Is that</span>
+<br/>
+<span style="S5">what you're waiting for?</span>
+</p>
+<p begin="00:16:43.520" end="00:16:44.800" region="R4" style="S2" xml:id="C341">
+<span style="S4">Oh, yeah, oh, yeah...</span>
+</p>
+<p begin="00:16:47.640" end="00:16:48.800" region="R4" style="S2" xml:id="C342">
+<span style="S4">Is that...?</span>
+</p>
+<p begin="00:16:52.560" end="00:16:54.160" region="R4" style="S2" xml:id="C343">
+<span style="S4">Adulterer!</span>
+</p>
+<p begin="00:17:01.440" end="00:17:02.800" region="R4" style="S2" xml:id="C344">
+<span style="S3">Well?</span>
+</p>
+<p begin="00:17:03.800" end="00:17:06" region="R4" style="S2" xml:id="C345">
+<span style="S3">You going to start talking or...?</span>
+</p>
+<p begin="00:17:06" end="00:17:07.160" region="R4" style="S2" xml:id="C346">
+<span style="S5">Look...</span>
+</p>
+<p begin="00:17:07.160" end="00:17:09.800" region="R4" style="S2" xml:id="C347">
+<span style="S5">We gave ourselves today to decide.</span>
+</p>
+<p begin="00:17:09.800" end="00:17:13.120" region="R9" style="S2" xml:id="C348_1">
+<span style="S5">We thought about it. We talked</span>
+<br/>
+<span style="S5">about it, didn't we?</span>
+<span style="S4"> Yeah.</span>
+</p>
+<p begin="00:17:13.120" end="00:17:15.160" region="R4" style="S2" xml:id="C349">
+<span style="S5">Yeah, and...</span>
+</p>
+<p begin="00:17:15.160" end="00:17:17.880" region="agr_0_20_39.5_4_after" style="S2" xml:id="C350_1">
+<span style="S5">And you're a good kid, Bernie,</span>
+<br/>
+<span style="S5">you're a great kid.</span>
+</p>
+<p begin="00:17:17.880" end="00:17:19.720" region="R4" style="S2" xml:id="C351">
+<span style="S5">You're kind, considerate...</span>
+</p>
+<p begin="00:17:20.720" end="00:17:22.840" region="R4" style="S2" xml:id="C352">
+<span style="S4">I saw your mum today.</span>
+</p>
+<p begin="00:17:22.840" end="00:17:24.720" region="R4" style="S2" xml:id="C353">
+<span style="S4">Pushing Albie.</span>
+</p>
+<p begin="00:17:24.720" end="00:17:27.080" region="R4" style="S2" xml:id="C354">
+<span style="S4">And she's a lot of things, is Karen.</span>
+</p>
+<p begin="00:17:28.680" end="00:17:31.360" region="R9" style="S2" xml:id="C355_1">
+<span style="S4">But above everything</span>
+<br/>
+<span style="S4">else, she's a Mum.</span>
+</p>
+<p begin="00:17:31.360" end="00:17:32.800" region="R4" style="S2" xml:id="C356">
+<span style="S4">A proper Mum.</span>
+</p>
+<p begin="00:17:32.800" end="00:17:35.480" region="agr_0_20_39_4_after" style="S2" xml:id="C357_1">
+<span style="S4">And she's never going</span>
+<br/>
+<span style="S4">to let you do this.</span>
+</p>
+<p begin="00:17:35.480" end="00:17:37.760" region="agr_0_20_39_4_after" style="S2" xml:id="C358_1">
+<span style="S4">But thank you for</span>
+<br/>
+<span style="S4">your offer, Bernie,</span>
+</p>
+<p begin="00:17:37.760" end="00:17:40.920" region="R9" style="S2" xml:id="C359">
+<span style="S4">but it's for the best. You can't</span>
+<br/>
+<span style="S4">be our surrogate, I'm so sorry.</span>
+</p>
+<p begin="00:17:44.360" end="00:17:45.840" region="R4" style="S2" xml:id="C360">
+<span style="S3">I...</span>
+</p>
+<p begin="00:17:45.840" end="00:17:48.440" region="R4" style="S2" xml:id="C361">
+<span style="S3">I know... I know what's best for me.</span>
+</p>
+<p begin="00:17:50" end="00:17:51.200" region="R4" style="S2" xml:id="C362">
+<span style="S3">I'm not a kid.</span>
+</p>
+<p begin="00:17:51.200" end="00:17:52.760" region="R4" style="S2" xml:id="C363">
+<span style="S3">I'm a woman.</span>
+</p>
+<p begin="00:17:52.760" end="00:17:57.080" region="R9" style="S2" xml:id="C364_1">
+<span style="S3">And this is my body and it's</span>
+<br/>
+<span style="S3">my choice - nobody else's.</span>
+</p>
+<p begin="00:17:58.480" end="00:18:03.600" region="agr_0_20_39_4_after" style="S2" xml:id="C365_1">
+<span style="S3">Yeah, my mum is a great mum</span>
+<br/>
+<span style="S3">and she'll go mad, but...</span>
+</p>
+<p begin="00:18:04.600" end="00:18:06" region="R4" style="S2" xml:id="C366">
+<span style="S3">..it don't matter.</span>
+</p>
+<p begin="00:18:06" end="00:18:09.880" region="agr_0_20_38.5_4_after" style="S2" xml:id="C367_1">
+<span style="S3">Look, I... I</span>
+<br/>
+<span style="S3">know...what I'm capable of.</span>
+</p>
+<p begin="00:18:10.920" end="00:18:12.480" region="R4" style="S2" xml:id="C368">
+<span style="S3">You're good people..</span>
+</p>
+<p begin="00:18:14.320" end="00:18:15.680" region="R4" style="S2" xml:id="C369">
+<span style="S3">..and so am I.</span>
+</p>
+<p begin="00:18:18.120" end="00:18:19.680" region="R4" style="S2" xml:id="C370">
+<span style="S3">We need the money...</span>
+</p>
+<p begin="00:18:21.200" end="00:18:23.080" region="R4" style="S2" xml:id="C371">
+<span style="S3">..and you need a baby, so...</span>
+</p>
+<p begin="00:18:24.280" end="00:18:26.400" region="agr_0_20_39.5_4_after" style="S2" xml:id="C372_1">
+<span style="S3">..why can't we help</span>
+<br/>
+<span style="S3">each other out here?</span>
+</p>
+<p begin="00:18:27.920" end="00:18:30" region="R4" style="S2" xml:id="C373">
+<span style="S3">I'm 100% sure...</span>
+</p>
+<p begin="00:18:32.120" end="00:18:35.120" region="agr_0.5_20_39.5_4_after" style="S2" xml:id="C374_1">
+<span style="S3">..and I'll sign whatever you</span>
+<br/>
+<span style="S3">put in front of me to prove that.</span>
+</p>
+<p begin="00:18:38.080" end="00:18:39.680" region="R4" style="S2" xml:id="C375">
+<span style="S3">I suppose the question is...</span>
+</p>
+<p begin="00:18:41.120" end="00:18:43.160" region="R4" style="S2" xml:id="C376">
+<span style="S3">"..are you?"</span>
+</p>
+<p begin="00:18:51.160" end="00:18:53.360" region="agr_0_20_39_4_after" style="S2" xml:id="C377_1">
+<span style="S4">You're right,</span>
+<br/>
+<span style="S4">you're not a kid.</span>
+</p>
+<p begin="00:18:53.360" end="00:18:55.200" region="R4" style="S2" xml:id="C378">
+<span style="S4">You're a...good young woman</span>
+</p>
+<p begin="00:18:55.200" end="00:18:57.440" region="R4" style="S2" xml:id="C379">
+<span style="S4">and I really want to believe you...</span>
+</p>
+<p begin="00:18:57.440" end="00:18:59.160" region="R4" style="S2" xml:id="C380">
+<span style="S4">..more than anything, but...</span>
+</p>
+<p begin="00:19:01.240" end="00:19:03.400" region="R4" style="S6" ttm:role="sound" xml:id="C381">
+<span style="S3">SHE EXHALES SHAKILY</span>
+</p>
+<p begin="00:19:03.400" end="00:19:06.760" region="R9" style="S2" xml:id="C382_1">
+<span style="S4">..I can't have this heartbreak</span>
+<br/>
+<span style="S4">again, I just can't.</span>
+</p>
+<p begin="00:19:10" end="00:19:11.320" region="R4" style="S2" xml:id="C383">
+<span style="S4">So...</span>
+</p>
+<p begin="00:19:12.320" end="00:19:13.680" region="R4" style="S6" ttm:role="sound" xml:id="C384">
+<span style="S3">SHE STAMMERS</span>
+</p>
+<p begin="00:19:13.680" end="00:19:16.160" region="R4" style="S2" xml:id="C385">
+<span style="S4">..if you can look me in the eye...</span>
+</p>
+<p begin="00:19:16.160" end="00:19:17.520" region="R4" style="S2" xml:id="C386">
+<span style="S4">..and promise...</span>
+</p>
+<p begin="00:19:18.720" end="00:19:20.360" region="R4" style="S2" xml:id="C387">
+<span style="S4">..that you won't break my heart...</span>
+</p>
+<p begin="00:19:24" end="00:19:25.360" region="R4" style="S2" xml:id="C388">
+<span style="S3">I promise.</span>
+</p>
+<p begin="00:19:36.960" end="00:19:39.320" region="R4" style="S2" xml:id="C389">
+<span style="S4">Then we're in.</span>
+</p>
+<p begin="00:19:46.360" end="00:19:48.480" region="R4" style="S2" xml:id="C390">
+<span style="S5">Tamwar's coming here?</span>
+</p>
+<p begin="00:19:48.480" end="00:19:51.320" region="R4" style="S2" xml:id="C391">
+<span style="S4">Yep...</span>
+<span style="S7"> We don't know that, do we?</span>
+</p>
+<p begin="00:19:51.320" end="00:19:54.440" region="agr_3_20_37_4_after" style="S2" xml:id="C392_1">
+<span style="S4">Just keep it schtum, all right?</span>
+<br/>
+<span style="S4">We don't want to ruin the surprise.</span>
+</p>
+<p begin="00:19:54.440" end="00:19:56.160" region="R4" style="S2" xml:id="C393">
+<span style="S5">I'm going to the toilet.</span>
+</p>
+<p begin="00:19:56.160" end="00:19:59" region="agr_0_20_38.5_4_after" style="S2" xml:id="C394_1">
+<span style="S3">Afternoon, Carter Clan.</span>
+<br/>
+<span style="S3">How're we doing?</span>
+</p>
+<p begin="00:19:59" end="00:20:02.120" region="agr_1_20_39_4_after" style="S2" xml:id="C395_1">
+<span style="S4">What do you want?</span>
+<span style="S3"> Your daughter's</span>
+<br/>
+<span style="S3">hand in marriage, eventually,</span>
+</p>
+<p begin="00:20:02.120" end="00:20:04.720" region="agr_1.5_20_38.5_4_after" style="S2" xml:id="C396_1">
+<span style="S3">but I'll settle for a cheeseburger</span>
+<br/>
+<span style="S3">and a can of lager for now, eh?</span>
+</p>
+<p begin="00:20:04.720" end="00:20:06.840" region="agr_0_20_19_2_after" style="S2" ttm:role="sound" xml:id="C397_1">
+<span style="S3">MICK LAUGHS</span>
+</p>
+<p begin="00:20:04.720" end="00:20:06.840" region="R4" style="S2" ttm:role="sound" xml:id="C397_2">
+<span style="S7">You're a good-looking boy.</span>
+</p>
+<p begin="00:20:06.840" end="00:20:09.240" region="R9" style="S2" xml:id="C398_1">
+<span style="S7">Do yourself a favour and</span>
+<br/>
+<span style="S7">keep it that way, all right?</span>
+</p>
+<p begin="00:20:09.240" end="00:20:10.720" region="R4" style="S2" xml:id="C399">
+<span style="S5">What're you doing here?</span>
+</p>
+<p begin="00:20:10.720" end="00:20:12.400" region="R4" style="S2" xml:id="C400">
+<span style="S3">I talked to my sister.</span>
+</p>
+<p begin="00:20:12.400" end="00:20:14.240" region="agr_0_20_39_4_after" style="S2" xml:id="C401_1">
+<span style="S3">Job at the gym's yours,</span>
+<br/>
+<span style="S3">if you still want it.</span>
+</p>
+<p begin="00:20:14.240" end="00:20:16.520" region="agr_0_20_38.5_4_after" style="S2" xml:id="C402_1">
+<span style="S3">Well, a trial...</span>
+<br/>
+<span style="S3">Before we open, anyway.</span>
+</p>
+<p begin="00:20:16.520" end="00:20:18.560" region="R4" style="S2" xml:id="C403">
+<span style="S3">You owe me one, blondie.</span>
+</p>
+<p begin="00:20:20.200" end="00:20:22.400" region="R4" style="S2" xml:id="C404">
+<span style="S4">You want a job with Sharon? Why?</span>
+</p>
+<p begin="00:20:23.680" end="00:20:25.320" region="R4" style="S2" xml:id="C405">
+<span style="S5">I've got to go.</span>
+<span style="S4"> Oh...</span>
+</p>
+<p begin="00:20:25.320" end="00:20:27.080" region="R4" style="S2" xml:id="C406">
+<span style="S4">You meeting Tam?</span>
+</p>
+<p begin="00:20:27.080" end="00:20:28.160" region="R4" style="S2" xml:id="C407">
+<span style="S5">What?</span>
+</p>
+<p begin="00:20:28.160" end="00:20:29.560" region="R4" style="S2" xml:id="C408">
+<span style="S4">I heard you on the phone to him.</span>
+</p>
+<p begin="00:20:29.560" end="00:20:32.400" region="agr_0_20_39.5_4_after" style="S2" xml:id="C409_1">
+<span style="S4">I thought he was coming</span>
+<br/>
+<span style="S4">over for a little visit...</span>
+</p>
+<p begin="00:20:32.400" end="00:20:34.960" region="R9" style="S2" xml:id="C410_1">
+<span style="S5">I don't know what you're talking</span>
+<br/>
+<span style="S5">about, but I've got to go...</span>
+</p>
+<p begin="00:20:34.960" end="00:20:38.200" region="R9" style="S2" xml:id="C411_1">
+<span style="S4">Are you coming home?</span>
+<br/>
+<span style="S4">For good? Both of you?</span>
+</p>
+<p begin="00:20:38.200" end="00:20:40.640" region="agr_0_20_39_4_after" style="S2" xml:id="C412_1">
+<span style="S4">Because if you are, you don't</span>
+<br/>
+<span style="S4">need to work with Sharon.</span>
+</p>
+<p begin="00:20:40.640" end="00:20:42.880" region="agr_0_20_38.5_4_after" style="S2" xml:id="C413_1">
+<span style="S4">I mean, you can work</span>
+<br/>
+<span style="S4">with us. It'll be fine!</span>
+</p>
+<p begin="00:20:42.880" end="00:20:44.280" region="R4" style="S2" xml:id="C414">
+<span style="S5">No, it won't be fine, Mum!</span>
+</p>
+<p begin="00:20:45.280" end="00:20:47.640" region="agr_0_20_39.5_4_after" style="S2" xml:id="C415_1">
+<span style="S5">OK? I'm coming home.</span>
+<br/>
+<span style="S5">He's not.</span>
+</p>
+<p begin="00:20:48.800" end="00:20:50.800" region="R4" style="S2" xml:id="C416">
+<span style="S5">We're getting a divorce.</span>
+</p>
+</div>
+</body>
+</tt>
