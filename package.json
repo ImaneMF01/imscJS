@@ -34,6 +34,7 @@
         "postversion": "git push --tags"
     },
     "dependencies": {
+        "grunt-cli": "^1.4.2",
         "sax": "1.2.4"
     },
     "devDependencies": {
