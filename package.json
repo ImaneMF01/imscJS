@@ -34,6 +34,7 @@
         "postversion": "git push --tags"
     },
     "dependencies": {
+        "browser-sync": "^2.27.4",
         "grunt-cli": "^1.4.2",
         "sax": "1.2.4"
     },
@@ -44,7 +45,7 @@
         "esm": "^3.2.25",
         "filesaver.js-npm": "latest",
         "google-closure-compiler": "^20180910.1.0",
-        "grunt": "latest",
+        "grunt": "^1.4.1",
         "grunt-browserify": "latest",
         "grunt-contrib-clean": "latest",
         "grunt-contrib-jshint": "latest",
