@@ -1359,8 +1359,8 @@ var backgroundColorAdjustSuffix = "BackgroundColorAdjust";
                         // color(rec2020 0.42210 0.47580 0.35605);
                         //color(xyz 0.2005, 0.14089, 0.4472)
 
+                        var col= "color(rec2020 " + attr[0].toString() + " " +
                         //var col= "color(display-p3 " + attr[0].toString() + " " +
-                        var col= "color(display-p3 " + attr[0].toString() + " " +
                         attr[1].toString() + " " + attr[2].toString() +
                         ")"; 
                         dom_element.style.color = col;
